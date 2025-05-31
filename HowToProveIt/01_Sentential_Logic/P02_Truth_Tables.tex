@@ -1,0 +1,152 @@
+\begin{enumerate}
+    \item
+    \begin{enumerate}
+        \item
+        \begin{tabular}{c | c | c}
+            $P$ & $Q$ & $\lnot P \lor Q$ \\
+            \hline
+            $F$ & $F$ & $T$ \\
+            $F$ & $T$ & $T$ \\
+            $T$ & $F$ & $F$ \\
+            $T$ & $T$ & $T$ 
+        \end{tabular}
+        \item 
+        \begin{tabular}{c | c | c}
+            $S$ & $G$ & $(S \lor G) \land (\lnot S \lor \lnot G)$\\
+            \hline
+            $F$ & $F$ & $F$ \\
+            $F$ & $T$ & $T$ \\
+            $T$ & $F$ & $T$ \\
+            $T$ & $T$ & $F$ 
+        \end{tabular}
+    \end{enumerate}
+    \item
+    \begin{enumerate}
+        \item
+        \begin{tabular}{c | c | c}
+            $P$ & $Q$ & $\lnot (P \land (Q \lor \lnot P))$\\
+            \hline
+            $F$ & $F$ & $T$ \\
+            $F$ & $T$ & $T$ \\
+            $T$ & $F$ & $T$ \\
+            $T$ & $T$ & $F$ 
+        \end{tabular}
+        \item
+        \begin{tabular}{c | c | c | c}
+            $P$ & $Q$ & $R$ & $(P \lor Q) \land (\lnot P \lor R)$\\
+            \hline
+            $F$ & $F$ & $F$ & $F$ \\
+            $F$ & $F$ & $T$ & $F$ \\
+            $F$ & $T$ & $F$ & $T$ \\
+            $F$ & $T$ & $T$ & $T$ \\
+            $T$ & $F$ & $F$ & $F$ \\
+            $T$ & $F$ & $T$ & $T$ \\
+            $T$ & $T$ & $F$ & $F$ \\
+            $T$ & $T$ & $T$ & $T$
+        \end{tabular}
+    \end{enumerate}
+    \item
+    \begin{enumerate}
+        \item 
+        \begin{tabular}{c | c | c}
+            $P$ & $Q$ & $P \oplus Q$\\
+            \hline
+            $F$ & $F$ & $F$ \\
+            $F$ & $T$ & $T$ \\
+            $T$ & $F$ & $T$ \\
+            $T$ & $T$ & $F$
+        \end{tabular}
+        \item 
+        \begin{tabular}{c | c | c}
+            $P$ & $Q$ & $(P \lor Q) \land \lnot(P \land Q)$\\
+            \hline
+            $F$ & $F$ & $F$ \\
+            $F$ & $T$ & $T$ \\
+            $T$ & $F$ & $T$ \\
+            $T$ & $T$ & $F$
+        \end{tabular}
+    \end{enumerate}
+    \item
+    \[P \lor Q \equiv \lnot (\lnot P \land \lnot Q)\]
+    \item
+    \begin{enumerate}
+        \item
+        \begin{tabular}{c | c | c}
+            $P$ & $Q$ & $P \downarrow Q$\\
+            \hline
+            $F$ & $F$ & $T$ \\
+            $F$ & $T$ & $F$ \\
+            $T$ & $F$ & $F$ \\
+            $T$ & $T$ & $F$
+        \end{tabular}
+        \item 
+        \[P \downarrow Q \equiv \lnot P \land \lnot Q \equiv \lnot (P \lor Q)\]
+        \item 
+        \[\lnot P \equiv P \downarrow P \]
+        \[P \lor Q \equiv (P \downarrow Q) \downarrow (P \downarrow Q)\]
+        \[P \land Q \equiv (P \downarrow P) \downarrow (Q \downarrow Q)\]
+    \end{enumerate}
+    \item 
+    \begin{enumerate}
+        \item
+        \begin{tabular}{c | c | c}
+            $P$ & $Q$ & $P \mid Q$\\
+            \hline
+            $F$ & $F$ & $T$ \\
+            $F$ & $T$ & $T$ \\
+            $T$ & $F$ & $T$ \\
+            $T$ & $T$ & $F$
+        \end{tabular}
+        \item
+        \[\lnot(P \land Q)\]
+        \item 
+        \[\lnot P \equiv P \mid P\]
+        \[P \lor Q \equiv (P \mid P) \mid (Q \mid Q)\]
+        \[P \land Q \equiv (P \mid Q) \mid (P \mid Q)\]
+    \end{enumerate}
+    \item
+    \begin{enumerate}
+        \item Valid
+        \item Invalid
+        \item Valid
+        \item Invalid
+    \end{enumerate}
+    \item 
+    \[(a) \equiv (c), (b) \equiv (e)\]
+    \item
+    (b) is a contradiction; (c) is a tautology
+    \item
+    Not needed
+    \item 
+    \begin{enumerate}
+        \item 
+        \[\lnot (\lnot P \land \lnot Q) \equiv P \lor Q\]
+        \item 
+        \[(P \land Q) \lor (P \land \lnot Q) \equiv P\]
+        \item 
+        \[\lnot (P \land \lnot Q) \lor (\lnot P \land Q) \equiv \lnot P \lor Q\]
+    \end{enumerate}
+    \item 
+    \begin{enumerate}
+        \item 
+        \[\lnot (\lnot P \lor Q) \lor (P \land \lnot R \equiv P \land \lnot (Q \land R)\]
+        \item 
+        \[\lnot (\lnot P \land Q) \lor (P \land \lnot R) \equiv \lnot Q \lor P\]
+        \item 
+        \[(P \land R) \lor (\lnot R \land (P \lor Q)) \ equiv \lnot P \land \lnot Q\]
+    \end{enumerate}
+    \item 
+    Not needed
+    \item 
+    Not needed
+    \item 
+    \[2 ^ n\]
+    \item 
+    \[P \lor \lnot Q\]
+    \item
+    \[(P \land \lnot Q) \lor (\lnot P \land Q)\]
+    \item
+    (1) That it is valid; (2) That it is invalid if there is a combination where all premises are true; (3) Could be either valid or invalid for a tautology, if it is a contradiction then it is valid
+    
+    
+\end{enumerate}
