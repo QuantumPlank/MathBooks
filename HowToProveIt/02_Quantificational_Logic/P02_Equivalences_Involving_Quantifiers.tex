@@ -1,0 +1,148 @@
+\begin{enumerate}
+    % 1
+    \item
+    \begin{enumerate}
+        \item 
+        \[\lnot (\forall x (M(x) \rightarrow \exists y (F(x,y) \land H(y))))\]
+        \[\exists x \lnot (M(x) \rightarrow \exists y (F(x,y) \land H(y)))\]
+        \[\exists x (M(x) \land \lnot exists y (F(x,y) \land H(y)))\]
+        \[\exists x (M(x) \land \forall y (\lnot F(x,y) \lor \lnot H(y)))\]
+        \[\exists x (M(x) \land \forall y (F(x,y) \rightarrow \lnot H(y)))\]
+        \item 
+        \[\lnot(\forall x \exists y(R(x,y) \land \forall z (\lnot L(y,z))))\]
+        \[\exists x \forall y (\lnot R(x,y) \lor \exists z (L(y,z)))\]
+        \[\exists x \forall y (R(x,y) \rightarrow \exists z (L(y,z)))\]
+        \item 
+        \[\lnot (A \cup B \subseteq C \setminus D)\]
+        \[\lnot \forall x ((x \in A \lor x \in B) \rightarrow (x \in C \land x \notin D))\]
+        \[\exists x \lnot ((x \in A \lor x \in B) \rightarrow (x \in C \land x \notin D))\]
+        \[\exists x ((x \in A \lor x \in B) \land \lnot (x \in C \land x \notin D))\]
+        \[\exists x ((x \in A \lor x \in B) \land (x \notin C \lor x \in D))\]
+        \item 
+        \[\lnot (\exists x \forall y (y > x \rightarrow \exists z (z^2 +5z = y)))\]
+        \[\forall x \exists y (y > x \land \forall z (z^2 +5z \neq y))\]
+    \end{enumerate}
+    % 2
+    \item
+    \begin{enumerate}
+        \item 
+        \[\lnot (\exists x (F(x) \land \lnot \exists y (R(x, y))))\]
+        \[\forall x (\lnot F(x) \lor \exists y (R(x,y)))\]
+        \[\forall x (F(x) \rightarrow \exists y (R(x,y)))\]
+        \item 
+        \[\lnot (\forall x \exists y (L(x,y)) \land \lnot \exists x \forall y (L(x,y)))\]
+        \[\exists x \forall y (\lnot L(x,y)) \lor \exists x \forall y (L(x,y))\]
+        \item 
+        \[\lnot (\forall a \in A \exists b \in B (a \in C \iff b \in C))\]
+        \[\exists a \in A \forall b \in B \lnot(a \in C \iff b \in C)\]
+        \[\exists a \in A \forall b \in B ((a \notin C \lor b \notin C) \land (a \in C \lor b \in C)) \]
+        \item 
+        \[\lnot(\forall y > 0 \exists x (ax^2 +bx +c = y))\]
+        \[\exists y > 0 \forall x (ax^2 +bx +c \neq y)\]
+    \end{enumerate}
+    % 3
+    \item 
+    \begin{enumerate}
+        \item True. All Natural numbers smaller than 7 can be represented as the sum of the squares of 3 natural numbers
+        \item False. Equation has two solutions in the natural numbers
+        \item True. Only solution in the natural numbers is 5
+        \item True. 5 solves both equations.
+    \end{enumerate}
+    % 4
+    \item 
+    \[\lnot \exists x P(x) \equiv \forall x \lnot P(x)\]
+    \[P(x) \equiv \lnot \lnot P(x)\]
+    \[\lnot \forall x \lnot \lnot P(x))\]
+    \[\exists x \lnot P(x))\]
+    % 5
+    \item
+    \[\lnot \exists x \in A P(x)\]
+    \[\lnot \exists x (x \in A \land P(x))\]
+    \[\forall x \lnot (x \in A \land P(x))\]
+    \[\forall x (x \notin A \lor \lnot P(x))\]
+    \[\forall x (x \in A \rightarrow \lnot P(x))\]
+    \[\forall x \in A \lnot P(x)\]
+    % 6
+    \item
+    \[\exists x (P(x) \lor Q(x))\]
+    \[\lnot \lnot (\exists x (P(x) \lor Q(x)))\]
+    \[\lnot (\forall x \lnot (P(x) \lor Q(x)))\]
+    \[\lnot (\forall x (\lnot P(x) \land \lnot Q(x)))\]
+    \[\lnot (\forall x \lnot P(x) \land \forall x \lnot Q(x))\]
+    \[\exists x P(x) \lor \exists x Q(x)\]
+    % 7
+    \item
+    \[\exists x (P(x) \rightarrow Q(x))\]
+    \[\exists x (\lnot P(x) \lor Q(x))\]
+    \[\exists x \lnot P(x) \lor \exists x Q(x)\]
+    \[\lnot \forall x P(x) \lor \exists x Q(x)\]
+    \[\forall x P(x) \rightarrow \exists x Q(x)\]
+    % 8
+    \item
+    \[(\forall x \in A P(x)) \land (\forall x \in B P(x))\]
+    \[\forall x (x \in A \rightarrow P(x)) \land \forall x (x \in B \rightarrow P(x))\]
+    \[\forall x (x\in A \rightarrow P(x) \land (x \in B \rightarrow P(x)))\]
+    \[\forall x ((x \in A \land x \in B) \rightarrow P(x))\]
+    \[\forall x \in A \cup B, P(x)\]
+    % 9
+    \item
+    No, first statement is true for every person with any of those two conditions, second one is true when for any person that with a condition or other person with that other condition.
+    That is, the first statement operate over the same subject while the second one doesn't.
+    % 10
+    \item
+    \begin{enumerate}
+        \item 
+        \[\exists x \in A, P(x) \lor \exists x \in B, P(x)\]
+        \[\exists x (x \in A \land P(x)) \lor \exists x (x \in B \land P(x))\]
+        \[\exists x ((x\in A \land P(x)) \lor (x \in B \land P(x)))\]
+        \[\exists x (x \in A \lor x \in B) \land P(x)\]
+        \[\exists x \in A \cup B, P(x)\]
+        \item 
+        No. The first statement says that there is an element in each of the sets that has the property, the second statement says that there is an element in both sets that has the property.
+    \end{enumerate}
+    % 11
+    \item
+    \[A \subseteq B \equiv \forall x (x \in A \rightarrow x \in B)\]
+    \[A \setminus B \equiv \lnot \exists x (x \in A \land x \notin B)\]
+    \[\lnot \exists x (x \in A \land x \notin B) \equiv \forall x (x \notin A \lor x \in B)\]
+    \[\equiv \forall x (x \in A \rightarrow x \in B)\]
+    % 12
+    \item
+    \[C \subseteq A \cup B\]
+    \[\forall x (x \in C \rightarrow (x \in A \lor x \in B))\]
+    \[\forall x (x \notin C \lor (x \in A \lor x \in B))\]
+    \[\forall x ((x \notin C \lor x \in A) \lor x \in B)\]
+    \[\forall x ((x \in C \land x \notin A) \rightarrow x \in B)\]
+    \[(C \setminus A) \subseteq B\]
+    % 13
+    \item
+    \begin{enumerate}
+        \item 
+        \[A \subseteq B\]
+        \[\forall x (x \in A \rightarrow x \in B)\]
+        \[\forall x ((x \in A \lor x \in B) \iff x \in B)\]
+        \[A \cup B = B\]
+        \item 
+        \[A \subseteq B\]
+        \[\forall x (x \in A \rightarrow x \in B)\]
+        \[\forall x ((x \in A \land x \in B) \iff x \in A)\]
+        \[A \cap B = B\]
+    \end{enumerate}
+    % 14
+    \item
+    \[\lnot \exists x (x \in A \land x \in B)\]
+    \[\forall x (x \notin A \lor x \notin B)\]
+    \[\forall x (x \in A \rightarrow x \notin B)\]
+    \[\forall x ((x \in A \land x \notin B) \iff x \in A)\]
+    \[A \setminus B = A\]
+    % 15
+    \item 
+    \begin{enumerate}
+        \item x is a teacher who has exactly one student.
+        \item There exists a teacher x which teaches exactly one student.
+        \item There exists a single teacher that has at least one student.
+        \item There exists a single student that has a single teacher.
+        \item There exists a single teacher that teaches a single student.
+        \item There exists a single teacher and a single student that is taught by them.
+    \end{enumerate}
+\end{enumerate}

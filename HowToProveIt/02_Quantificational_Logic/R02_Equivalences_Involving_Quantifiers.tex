@@ -1,0 +1,20 @@
+\textbf{Quantifier NEgation laws}
+\[\lnot \exists x P(x) \text{ is equivalent to } \forall x \lnot P(x)\]
+\[\lnot \forall x P(x) \text{ is equivalent to } \exists x \lnot P(x)\]
+
+Reversing the order of two quantifiers can sometimes change the meaning of a formula. However, if the quantifiers are the same type, they can be switched without affecting the meaning of the formula.
+
+To indicate that there exists \textit{exactly one} element, we use $\exists!$.
+\[\exists! x P(x) \equiv \exists x (P(x) \land \lnot \exists y (P(y) \land y \neq x))\]
+
+Sometimes it is useful to write the truth set of $P(x)$ as $\{x \in U \mid P(x)\}$. Similarly, instead of writing $\forall x P(x)$ we can write $\forall x \in U, P(x)$ which is equivalent to $\forall x (x\in A \rightarrow P(x))$. Similarly for $\exists x \in U, P(x)$, we can write $\exists x (x \in A \land P(x))$
+
+Quantifiers in formulas where the set of discourse is specified are sometimes called \textit{bounded quantifiers}, because they place \textit{bounds on which values of} $x$ are to be considered.
+
+A statement is \textit{vacuously true} if the set of discourse is the empty set.
+
+The empty set is a subset of every set.
+
+The universal quantifier distributes over conjunction \(\forall x (E(x) \land T(x)) \equiv \forall x E(x) \land \forall x T(x)\)
+
+The existential quantifier distributes over disjunction \(\exists x (E(x) \lor T(x)) \equiv \exists x E(x) \lor \exists x T(x)\)
