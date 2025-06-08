@@ -1,7 +1,7 @@
 \begin{enumerate}
-    % 1
     \item The sets $A \cap B$ and $(A \cup B) \setminus C$ are subsets of $A \cup (B \setminus C)$
     \begin{enumerate}
+        % 1
         \item 
             \[A \cap B = \{3,12\}\]
         \item 
@@ -56,6 +56,75 @@
     \item
     \begin{enumerate}
         \item 
+        \[(A \setminus B) \cap C = (A \cap C) \setminus B \]
+        \[(x \in A \land x \notin B) \land x \in C\]
+        \[(x \in A \land  (x \notin B)) \land x \in C\]
+        \[(x \in A \land x \in C ) \land  x \notin B \]
+        \[(A \cap C ) \setminus B\]
+        \item 
+        \[(A \cap B) \setminus B = \emptyset\]
+        \[(x \in A \land x \in B) \land x \notin B\]
+        \[x \in A \land (x \in B \land x \notin B)\]
+        \[\emptyset\]
+        \item 
+        \[A \setminus (A \setminus B) = A \cap B\]
+        \[x \in A \land \lnot (x \in A \land \lnot x \in B)\]
+        \[x \in A \land (x \notin A \lor x \in B)\]
+        \[(x \in A \land x \notin A) \lor (x \in A \land x \in B)\]
+        \[\emptyset \cup (A \cap B)\]
+        \[A \cap B\]
+    \end{enumerate}
+    % 9
+    \item (a) (d) (e), (b) (c) 
+    \begin{enumerate}
+        \item 
+        \[(x \in A \land x \notin B) \land x \notin C\]
+        \item 
+        \[x \in A \land (x \notin B \lor x \in C)\]
+        \item
+        \[(x \in A \land x \notin B) \lor (x \in A \land x \in C)\]
+        \item
+        \[(x \in A \land x \notin B) \land (x \in A \land x \notin C)\]
+        \item
+        \[x \in A \land (x \notin B \land x \notin C)\]
+    \end{enumerate}
+    % 10
+    \item
+    \begin{enumerate}
+        \item \[A = \{1,2\}, B = \{2,3\}\]
+        \item 
+        \[(x \in A \lor x \in B) \land x \notin B\]
+        \[(x \notin B \land x \in A) \lor (x \notin B \land x \in B)\]
+        \[(x \notin B \land x \in A)\]
+        \[(A \setminus B)\]
+    \end{enumerate}
+    % 11
+    \item
+    No, since \((A \setminus B) \cup B = A \cup B\).
+    \(A \setminus B \subseteq (A \setminus B) \cup B\) and \((A \setminus B) \cup B  \subseteq A \cup B\)
+    % 12
+    \item 
+    \begin{enumerate}
+        \item \((A \cap D) \setminus (B \cup C)\) cannot be represented.
+        \item Yes, with irregular forms.
+    \end{enumerate}
+    % 13
+    \item
+    \begin{enumerate}
+        \item \((A \cup B) \setminus C \subseteq A \cup (B \setminus C)\)
+        \item \(A = \{1,2,3\}, B = \{2,3,4\}, C=\{3,4,5\}\)
+    \end{enumerate}
+    % 14
+    \item Unnecesary
+    % 15
+    \item Unnecesary
+    % 16
+    \item  Unnecesary
+    % 17
+    \item \begin{enumerate}
+        \item \[C \setminus B\]
+        \item \[C \setminus B\]
+        \item \[A \cup B\]
     \end{enumerate}
 
 \end{enumerate}
