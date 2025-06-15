@@ -1,5 +1,9 @@
 A set defined in the form $P = \{p_i \mid i \in I\}$, where each element $p_i$ in the set is identified by a number $i \in I,  I=\{i \in \mathbb{N} \mid 1 \leq i \leq x \}$ called the \textit{index} of the element, is called an \textit{indexed family} and $I$ is called the \textit{index set}.
 
+\[S = \{P(a) \mid a \in A\}\]
+\[S = \{x \mid \exists a \in A,(x = P(a))\}\]
+
+
 Although the indices for an indexed famility are often numbers, they need not to be.
 
 Sets can have other sets as elements. Sets that contain other sets as elements are sometimes called \textit{families} of sets.
@@ -11,3 +15,9 @@ Sets can have other sets as elements. Sets that contain other sets as elements a
 \[\cap \mathscr{F} = \{x \mid \forall A \in \mathscr{F} (x \in A)\} = \{x \mid \forall A (A \in \mathscr{F} \rightarrow x \in A)\}\]
 
 \[\cap \mathscr{F} = \{x \mid \exists A \in \mathscr{F} (x \in A)\} = \{x \mid \exists A (A \in \mathscr{F} \land x \in A)\}\]
+
+Supposing $\mathscr{F} = \{A_i \mid i \in I\}$,
+\[\bigcap \mathscr{F} = \bigcap_{i \in I} A_i = \{x \mid \forall i \in I (x \in A_i)\}\]
+
+\[\bigcup \mathscr{F} = \bigcup_{i \in I} A_i = \{x \mid \exists i \in I (x \in A_i)\}\]
+

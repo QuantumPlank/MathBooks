@@ -4,11 +4,179 @@
     \begin{enumerate}
         \item 
         \[\mathscr{F} \subseteq \mathscr{P}(A)\]
+        \[\forall x (x \in \mathscr{F} \rightarrow x \in \mathscr{P(A)})\]
+        \[\forall x (x \in \mathscr{F} \rightarrow \forall y (y \in x \rightarrow y \in A) )\]
         \item 
-            b
+        \[A \subseteq \{2n + 1 \mid n \in \mathbb{N}\}\]
+        \[\forall x (x \in A \rightarrow x \in \{2n + 1 \mid n \in \mathbb{N}\})\]
+        \[\forall x (x \in A \rightarrow \exists n \in \mathbb{N} (x = 2n + 1))\]
+        \item 
+        \[\{n^2 + n + 1 \mid n \in \mathbb{N}\} \subseteq \{2n+1 \mid n \in \mathbb{N}\}\]
+        \[\forall x (x \in \{n^2 + n + 1 \mid n \in \mathbb{N}\} \rightarrow x \in \{2n+1 \mid n \in \mathbb{N}\})\]
+        \[\forall x (\exists n \in \mathbb{N} (x = n^2 + n + 1) \rightarrow \exists n \in \mathbb{N} (x = 2n + 1))\]
+        \item 
+        \[\mathscr{P}(\bigcup_{i \in I} A_i) \not \subseteq \bigcup_{i \in I} \mathscr{P}(A_i)\]
+        \[\exists x (x \in \mathscr{P}(\bigcup_{i \in I} A_i) \land x \not \in \bigcup_{i \in I} \mathscr{P}(A_i))\]
+        \[\exists x (x \subseteq \bigcup_{i \in I} A_i \land \lnot \exists i \in I (x \in \mathscr{P}(A_i)))\]
+        \[\exists x (x \subseteq \bigcup_{i \in I} A_i \land \forall i \in I (x \notin \mathscr{P}(A_i)))\]
+        \[\exists x (\forall y (y \in x \rightarrow y \in \bigcup_{i \in I} A_i) \land \forall i \in I (x \not \subseteq A_i))\]
+        \[\exists x (\forall y (y \in x \rightarrow \exists i \in I (y \in A_i)) \land \forall i \in I (\exists y(y \in x \land y \not \in A_i)))\]
     \end{enumerate}
     % 2
-    \item 2
+    \item
+    \begin{enumerate}
+        \item 
+        \[x \in \bigcup \mathscr{F} \setminus \bigcup \mathscr{G}\]
+        \[\exists A \in \mathscr{F} (x \in A) \land \forall B \in \mathscr{G} (x \notin B)\]
+        \item 
+        \[\{x \in B \mid x \notin C\} \in \mathscr{P}(A)\]
+        \[\{x \in B \mid x \notin C\} \subseteq A\]
+        \[\forall x ((x \in B \land x \notin C) \rightarrow x \in A)\]
+        \item 
+        \[x \in \bigcap_{i \in I} (A_i \cup B_i)\]
+        \[x \in \{x \mid \forall i \in I (x \in (A_i \cup B_i))\}\]
+        \[\forall i \in I (x \in A_i \lor x \in B_i))\]
+        \item 
+        \[x \in (\cap_{i \in I} A_i) \cup (\cap_{i \in I} B_i)\]
+        \[x \in \{x \mid \forall i \in I (x \in A_i)\} \cup \{x \mid \forall i \in I (x \in B_i)\}\]
+        \[\forall i \in I (x \in A_i) \lor \forall i \in I (x \in B_i)\]
+    \end{enumerate}
     % 3
-    \item 3
+    \item
+    The power set of a set that contains the empty set $\mathscr{P}(\{\emptyset\})=\{\{\emptyset\},\emptyset \}$
+    % 4
+    \item 
+    \[\cap \mathscr{F} = \{\text{red}\}\]
+    \[\cup \mathscr{F} = \{\text{red},\text{green},\text{blue},\text{orange},\text{purple}\}\]
+    % 5
+    \item 
+    \[\cap \mathscr{F} = \emptyset\]
+    \[\cup \mathscr{F} = \{3,5,7,12,16,23\}\]
+    % 6
+    \item 
+    \begin{enumerate}
+        \item \[A_2=\{1,2,3,4\}; A_3=\{2,3,4,6\}; A_4=\{3,4,6,8\}; A_5=\{4,5,6,10\}\]
+        \item 
+        \[\cap_{i \in I} A_i = \{4\}\]
+        \[\cup_{i \in I} A_i = \{1,2,3,4,5,6,8,10\}\]
+    \end{enumerate}
+    % 7
+    \item Unnecesary
+    % 8
+    \item
+    \begin{enumerate}
+        \item 
+        \[A_2 = \{2,4\}; A_3 = \{3,6\}\]
+        \[B_2 = \{2,3\}; B_3 = \{3,4\}\]
+        \item 
+        \[\cap_{i \in I} (A_i \cup B_i) = \{2,3,4\} \cap \{3,4,6\} = \{3,4\} \]
+        \[(\cap_{i \in I} A_i) \cup (\cap_{i \in I} B_i) = \emptyset \cup \{3\} = \{3\}\]
+        \item 
+        Not equivalent
+    \end{enumerate}
+    % 9
+    \item
+    \begin{enumerate}
+        \item Not equivalent
+        \[x \in \cup_{i \in I} (A_i \setminus B_i) \equiv \exists i \in I (x \in A_i \setminus B_i)\]
+        \[x \in (\cup_{i \in I} A_i) \setminus (\cup_{i \in I} B_i) \equiv \exists i \in I x \in A_i \land \forall i \in I x \notin B_i\]
+        \[x \in (\cup_{i \in I} A_i) \setminus (\cap_{i \in I} B_i) \equiv \exists i \in I x \in A_i \land \exists i \in I x \notin B_i\]
+        \item Not equivalent 
+        \[A_2 = \{2,4\}; A_3 = \{3,6\}\]
+        \[B_2 = \{2,3\}; B_3 = \{3,4\}\]
+        \[\cup_{i \in I} (A_i \setminus B_i) = \{4\} \cup \{6\} = \{4,6\}\]
+        \[(\cup_{i \in I} A_i) \setminus (\cup_{i \in I} B_i) = \{2,3,4,6\} \setminus \{2,3,4\} = \{6\}\]
+        \[(\cup_{i \in I} A_i) \setminus (\cap_{i \in I} B_i) = \{2,3,4,6\} \setminus \{3\} = \{2,4,6\}\]
+    \end{enumerate}
+    % 10
+    \item
+    \[I = \{1,2\}, A_1=\{a, b\}, A_2 =\{c,d\},B_1=\{a,e\},B_2=\{b,f\}\]
+    \[\cup_{i \in I}(A_i \cap B_i) = \{a\}\]
+    \[(\cup_{i \in I} A_i) \cap (\cup_{i \in I}B_i) = \{a,b\}\]
+    % 11
+    \item
+    \[x \in \mathscr{P}(A \cap B)\]
+    \[x \subseteq A \cap B\]
+    \[\forall y (y \in x \rightarrow y \in A \cap B)\]
+    \[\forall y (y \in x \rightarrow (y \in A \land y \in B)\]
+    \[\forall y (y \in x \rightarrow y \in A) \land \forall y (y \in x \rightarrow y \in B)\]
+    \[x \in \mathscr{P}(A) \cap x \in \mathscr{P}(B)\]
+    % 12
+    \item
+    \[A = \{a\}; B=\{b\}\]
+    \[\mathscr{P}(A \cup B) = \{a,b,\{a,b\}\}\]
+    \[\mathscr{P}(A) \cup \mathscr{P}(B) = \{a,b\}\]
+    % 13
+    \item
+    \begin{enumerate}
+        \item 
+        \[\cup_{i \in I} (A_i \cup B_i) = (\cup_{i \in I} A_i) \cup (\cup_{i \in I} A_i)\]
+        \[x \in \cup_{i \in I} (A_i \cup B_i)\]
+        \[\exists i \in I (x \in A_i \cup B_i)\]
+        \[\exists i \in I (x \in A_i \lor x \in B_i)\]
+        \[\exists i \in I (x \in A_i) \lor \exists i \in I (x \in B_i)\]
+        \[x \in (\cup_{i \in I} A_i) \cup (\cup_{i \in I} B_i)\]
+        \item 
+        \[(\cap \mathscr{F}) \cap (\cap \mathscr{G})\]
+        \[x \in (\cap \mathscr{F}) \cap (\cap \mathscr{G})\]
+        \[\forall A \in \mathscr{F}(x \in A) land \forall A \in \mathscr{G}(x \in A)\]
+        \[\forall A \in \mathscr{F} \cup \mathscr{G} (x \in A)\]
+        \[\cap (\mathscr{F} \cup \mathscr{G})\]
+        \item 
+        \[\cap_{i \in I} (A_i \setminus B_i)\]
+        \[\forall i \in I (x \in A_i \land x \notin B_i)\]
+        \[\forall i \in I (x \in A_i) \land \lnot \exists i \in I x \in B_i)\]
+        \[(\cap_{i \in I} A_i) \setminus (\cup_{i \in I} B_i)\]
+    \end{enumerate}
+    % 14
+    \item
+    \begin{enumerate}
+        \item 
+        \[B_3 = \cup_{i \in I} A_{i,3} = A_{1,3} \cup A_{2,3} = \{1,2,3,4,5\}\]
+        \[B_4 = \cup_{i \in I} A_{i,4} = A_{1,4} \cup A_{2,4} = \{1,2,4,5,6\}\]
+        \item 
+        \[\cap_{j \in J} B_j = \cap_{j \in J} (\cup_{i \in I} A_{i,j})\]
+        \[\cap_{j \in J} (A_{1,j} \cup A_{2,j})\]
+        \[(A_{1,3} \cup A_{2,3}) \cap (A_{1,4} \cup A_{2,4})\]
+        \[\{1,2,4,5\}\]
+        \item Not equal
+        \[\cup_{i \in I}(\cap_{j \in J} A_{i,j})\]
+        \[\cup_{i \in I}(A_{i,3} \cap A_{i,4})\]
+        \[(A_{1,3} \cap A_{1,4}) \cup (A_{2,3} \cap A_{2,4})\]
+        \[\{1,4\} \cup \{2\}\]
+        \[\{1,2,4\}\]
+        \item Not equivalent
+        \[x \in \cap_{j \in J}(\cup_{i \in I} A_{i,j})\]
+        \[\forall j \in J (x \in \cup_{i \in I} A_{i,j})\]
+        \[\forall j \in J (\exists i \in I (x \in A_{i,j}))\]
+        \begin{center}
+            -
+        \end{center}
+        \[x \in \cup_{i \in I}(\cap_{j \in J} A_{i,j})\]
+        \[\exists i \in I (x \in \cap_{j \in J} A_{i,j})\]
+        \[\exists i \in I (\forall j \in J (x \in A_{i,j}))\]
+    \end{enumerate}
+    % 15
+    \item
+    \begin{enumerate}
+        \item 
+        \[\mathscr{F} = \emptyset\]
+        \[x \in \cup \mathscr{F}\]
+        \[\exists A \in \mathscr{F} (x \in A)\]
+        False, since there is no set in $\mathscr{F}$
+        \item 
+        \[\mathscr{F} = \emptyset\]
+        \[x \in \cap \mathscr{F}\]
+        \[\forall A \in \mathscr{F} (x \in A)\]
+        True, since x is in every set of F, vacuously true
+    \end{enumerate}
+    % 16
+    \item
+    \begin{enumerate}
+        \item 
+        \[R = \{A \in U \mid A \notin A\}\]
+        \[\forall R \in U (R \in R \iff R \notin R)\]
+        \item 
+        There can't be a set that contains all sets.
+    \end{enumerate}
 \end{enumerate}
