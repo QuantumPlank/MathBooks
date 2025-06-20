@@ -1,0 +1,57 @@
+\contentsline {chapter}{\numberline {0}Introduction}{3}{}%
+\contentsline {section}{\numberline {0.1}Introduction}{3}{}%
+\contentsline {subsection}{\numberline {0.1.1}Recapitulation}{3}{}%
+\contentsline {subsection}{\numberline {0.1.2}Problems}{4}{}%
+\contentsline {chapter}{\numberline {1}Sentential Logic}{6}{}%
+\contentsline {section}{\numberline {1.1}Deductive Reasoning and Logical Connectives}{6}{}%
+\contentsline {subsection}{\numberline {1.1.1}Recapitulation}{6}{}%
+\contentsline {subsection}{\numberline {1.1.2}Problems}{6}{}%
+\contentsline {section}{\numberline {1.2}Truth Tables}{8}{}%
+\contentsline {subsection}{\numberline {1.2.1}Recapitulation}{8}{}%
+\contentsline {subsection}{\numberline {1.2.2}Problems}{9}{}%
+\contentsline {section}{\numberline {1.3}Variables and Sets}{11}{}%
+\contentsline {subsection}{\numberline {1.3.1}Recapitulation}{11}{}%
+\contentsline {subsection}{\numberline {1.3.2}Problems}{12}{}%
+\contentsline {section}{\numberline {1.4}Operations on Sets}{14}{}%
+\contentsline {subsection}{\numberline {1.4.1}Recapitulation}{14}{}%
+\contentsline {subsection}{\numberline {1.4.2}Problems}{15}{}%
+\contentsline {section}{\numberline {1.5}The Conditional and Biconditional Connectives}{18}{}%
+\contentsline {subsection}{\numberline {1.5.1}Recapitulation}{18}{}%
+\contentsline {subsection}{\numberline {1.5.2}Problems}{18}{}%
+\contentsline {chapter}{\numberline {2}Quantificational Logic}{21}{}%
+\contentsline {section}{\numberline {2.1}Quantifiers}{21}{}%
+\contentsline {subsection}{\numberline {2.1.1}Recapitulation}{21}{}%
+\contentsline {subsection}{\numberline {2.1.2}Problems}{21}{}%
+\contentsline {section}{\numberline {2.2}Equivalentces Involving Quantifiers}{23}{}%
+\contentsline {subsection}{\numberline {2.2.1}Recapitulation}{23}{}%
+\contentsline {subsection}{\numberline {2.2.2}Problems}{24}{}%
+\contentsline {section}{\numberline {2.3}More Operations on Sets}{28}{}%
+\contentsline {subsection}{\numberline {2.3.1}Recapitulation}{28}{}%
+\contentsline {subsection}{\numberline {2.3.2}Problems}{28}{}%
+\contentsline {chapter}{\numberline {3}Proofs}{33}{}%
+\contentsline {section}{\numberline {3.1}Proof Strategies}{33}{}%
+\contentsline {subsection}{\numberline {3.1.1}Recapitulation}{33}{}%
+\contentsline {subsection}{\numberline {3.1.2}Problems}{34}{}%
+\contentsline {section}{\numberline {3.2}Proofs Involving Negations and Conditionals}{36}{}%
+\contentsline {subsection}{\numberline {3.2.1}Recapitulation}{36}{}%
+\contentsline {subsection}{\numberline {3.2.2}Problems}{36}{}%
+\contentsline {section}{\numberline {3.3}Proofs Involving Quantifiers}{36}{}%
+\contentsline {subsection}{\numberline {3.3.1}Recapitulation}{36}{}%
+\contentsline {subsection}{\numberline {3.3.2}Problems}{36}{}%
+\contentsline {section}{\numberline {3.4}Proofs Involving Conjunctions and Biconditionals}{36}{}%
+\contentsline {subsection}{\numberline {3.4.1}Recapitulation}{36}{}%
+\contentsline {subsection}{\numberline {3.4.2}Problems}{36}{}%
+\contentsline {section}{\numberline {3.5}Proofs Involving Disjunctions}{36}{}%
+\contentsline {subsection}{\numberline {3.5.1}Recapitulation}{36}{}%
+\contentsline {subsection}{\numberline {3.5.2}Problems}{36}{}%
+\contentsline {section}{\numberline {3.6}Existence and Uniqueness Proofs}{36}{}%
+\contentsline {subsection}{\numberline {3.6.1}Recapitulation}{36}{}%
+\contentsline {subsection}{\numberline {3.6.2}Problems}{36}{}%
+\contentsline {section}{\numberline {3.7}More Examples of Proofs}{36}{}%
+\contentsline {subsection}{\numberline {3.7.1}Recapitulation}{36}{}%
+\contentsline {subsection}{\numberline {3.7.2}Problems}{36}{}%
+\contentsline {chapter}{\numberline {4}Relations}{37}{}%
+\contentsline {chapter}{\numberline {5}Functions}{38}{}%
+\contentsline {chapter}{\numberline {6}Mathematical Induction}{39}{}%
+\contentsline {chapter}{\numberline {7}Number Theory}{40}{}%
+\contentsline {chapter}{\numberline {8}Infinite Sets}{41}{}%
