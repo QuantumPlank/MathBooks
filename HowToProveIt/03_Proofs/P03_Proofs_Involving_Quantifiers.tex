@@ -1,0 +1,121 @@
+\begin{enumerate}
+    % 1
+    \item
+    Prove that if $\exists x (P(x) \rightarrow Q(x))$ then $\forall x P(x) \rightarrow \exists x Q(x)$ \\
+    Since $\exists x (P(x) \rightarrow Q(x))$, choosing $x = x_0$, then $P(x_0) \rightarrow Q(x_0)$, supposing that $\forall x P(x)$, then in particular $P(x_0)$ thus $Q(x_0)$, since we have found a value for which $Q(x)$ holds, we can conclude that $\exists x Q(x)$, thus $\forall x P(x) \rightarrow \exists x Q(x)$
+    % 2
+    \item
+    Prove that if $A$ and $B \setminus C$ are disjoint, then $A \cap B \subseteq C$.
+    Since $A \cap B \setminus C = \emptyset$ then for an arbitrary element $x$ of $A \cap B$, Then $x \in A$ and $x \in B$. Supposing that $x \notin C$ then since $x \in B$ and $x \notin C$ it follows that $x \in B \setminus C$, but since we have $x \in A$, therefore $x \in C$. Since $x$ was arbitrary, we conclude that $A \cap B \subseteq C$
+    % 3
+    \item 
+    Supposing that $A \subseteq B \setminus C$ is true, then assuming that $A \cap C \neq \emptyset$, then for some $x$ such that $x \in A$ and $x \in C$, since $A \subseteq B \setminus C$ means that $x \in A$ then $x \in B$ and $x \notin C$, but $x \in C$. Thus $A \cap C = \emptyset$
+    % 4
+    \item
+    Let $X$ be an arbitrary element of $\mathscr{P} (A)$, then $X \subseteq A$, supposing that $x \in X$, then since $X \subseteq A$, $x \in A$, and therefore $x \in \mathscr{P} (A)$ which means that $X \subseteq \mathscr{P} (A)$, so $X \in \mathscr{P} (\mathscr{P} (A))$. Since $X$ was arbitrary, we can conclude that $\mathscr{P} (A) \subseteq \mathscr{P} (\mathscr{P} (A))$
+    % 5
+    \item
+    \begin{enumerate}
+        \item $A = \emptyset$
+        \item $A = {1}$
+    \end{enumerate}
+    % 6
+    \item
+    \begin{enumerate}
+        \item 
+        Supposing that $x \neq 1$, then let $y = \frac{2x + 1}{x - 1}$, then $\frac{y + 1}{y - 2} = x$
+        \item 
+        Suppoing that $y$ is a real number such that $x = \frac{2y + 1}{y - 1}$. Suppose that $x = 1$, then $y + 1 = y - 2$, and therefore $1 = -2$, which is a contradiction, thus $x \neq 1$
+    \end{enumerate}
+    % 7
+    \item
+    Supposing that $y = \frac{x + \sqrt[2]{x^2 - 4}}{2}$, then $y +1/y = x$.
+    % 8
+    \item
+    Supposing that $A \in \mathscr{F}$ then $A \subseteq \bigcup \mathscr{F}$ means that $\forall x(x \in A \rightarrow \exists B \in \mathscr{F} (x \in B))$. Supposing that $x$ is an arbitrary element of $A$, then let $B = A$, means that $x \in A$. Thus $A \subseteq \bigcup \mathscr{F}$
+    % 9
+    \item
+    Supposing that $A \in \mathscr{F}$, then $\bigcap \mathscr{F} \subseteq A$ means that $\forall x (x \in \bigcap \mathscr{F} \rightarrow x \in A)$. Supposing that $x in \bigcap \mathscr{F}$ which means that $\forall B \in \mathscr{F} (x \in B)$, Supposing that $B$ is an arbitrary subset of $\mathscr{F}$, then $x \in A$. Thus $\bigcap \mathscr{F} \subseteq A$
+    % 10
+    \item
+    $B \subseteq \bigcap \mathscr{F}$ means that $\forall x (x \in B \rightarrow x \in \bigcap \mathscr{F})$. Supposing that $x$ is an arbitrary element of $B$ then $x \in \bigcap \mathscr{F}$ means that $\forall C \in \mathscr{F} (x \in C)$. Letting $C$ be an arbitrary element of $\mathscr{F}$, then $x \in C$, since $C \in \mathscr{F}$, then from $\forall A \in \mathscr{F} (B \subseteq A)$ then $B \subseteq C$, thus since $x \in C$, $C \in \mathscr{F}$, and $B \subseteq C$, we obtain that $B \subseteq \bigcap \mathscr{F}$
+    % 11
+    \item
+    Supposing that $\emptyset \in \mathscr{F}$. Supposing that $\bigcap \mathscr{F} \neq 0$, then we can choose some $x$ such that $x \in \bigcap \mathscr{F}$. Since $x \in \bigcap \mathscr{F}$, and $\emptyset \in \mathscr{F}$, $x \in \emptyset$. This is a contradiction, since $\emptyset$ has no elements.
+    % 12
+    \item
+    Supposing that $X$ is an arbitrary element of $\mathscr{F}$, since $\mathscr{F} \subseteq \mathscr{G}$, then $X \in \mathscr{G}$. Choosing some $x$ such that $x \in \bigcup \mathscr{F}$, since $X \in \mathscr{F}$, $x \in X$, but since $X \in \mathscr{G}$ then $x \in \bigcup \mathscr{G}$
+    % 13
+    \item
+    Supposing that $\mathscr{F} \subseteq \mathscr{G}$ and let $x$ be an arbitrary element of $\bigcap \mathscr{G}$. Supposing that $X \in \mathscr{F}$. Since $\mathscr{F} \subseteq \mathscr{G}$, it follows that $X \in \mathscr{G}$. Then by the definition of $\bigcap \mathscr{G}$, since $x \in \bigcap \mathscr{G}$ and $X \in \mathscr{G}$ then $x \in X$. Since $X$ was an arbitrary element of $\mathscr{F}$, we conclude that $\forall X \in \mathscr{F}(x \in A)$, which means that $x \in \bigcap \mathscr{F}$. Since $x$ was an arbitrary element of $\bigcap \mathscr{G}$, this shows that $\bigcap \mathscr{G} \subseteq \bigcap \mathscr{F}$
+    % 14
+    \item
+    Supposing that $x \in \cup_{ i \in I} \mathscr{P} (A_i)$. Choosing some $i \in I$ such that $x \in \mathscr{P} (A_i)$, which means $x \subseteq A_i$. Let $a$ be an arbitrary element of $x$, then $a \in A_i$, therefore $a \in \cup_{i \in I} A_i$. Since $a$ was an arbitrary element of $x$ it follows that $x \subseteq \cup_{i \in I} A_i$ which means that $x \in \mathscr{P} (\cup_{i \in I} A_i)$. Thus $\cup_{i \in I} \mathscr{P} (A_i) \subseteq \mathscr{P} (\cup_{i \in I} A_i )$
+    % 15
+    \item
+    Suppose that $i \in I$. Let $x$ be an arbitrary element of $\cap_{i \in I} A_i$, then $x \in A_i$. This means that $\cap_{i \in I} A_i \subseteq A_i$, thus $\cap_{i \in I} A_i \in \mathscr{P} (A_i)$. Since $i$ was arbitrary $\cap_{i \in I} A_i \in \cap_{i \in I} \mathscr{P} (A_i)$
+    % 16
+    \item
+    Suppose that $F \subseteq \mathscr{P}(B)$, then let $y$ be an arbitrary element of $\cup \mathscr{F}$ such that $y \in x$, and let $x$ be an arbitrary element of $\mathscr{F}$, since $x \in \mathscr{F}$, then $x \in \mathscr{P} (B)$ which means that $x \subseteq B$, since $y \in x$ then $y \in B$ but since $y$ was an arbitrary element of $\cup \mathscr{F}$ then $\cup \mathscr{F} \subseteq B$
+    % 17
+    \item
+    Let $x$ be an arbitrary element of $\cup \mathscr{F}$. Then choose some $A \in \mathscr{F}$ such that $x \in A$. Since every element of $A$ is a subset of every element of $\mathscr{G}$, then for an arbitrary $B \in \mathscr{G}$, $A \subseteq B$, thus $x \in B$, but $B$ was an arbitrary element of $\mathscr{G}$ which means that $\forall B \in \mathscr{G} (x \in B)$ so $x \in \cap \mathscr{G}$. Thus $\cup \mathscr{G} \subseteq \cap \mathscr{G}$
+    % 18
+    \item
+    \begin{enumerate}
+        \item 
+    Supposing that $a \mid b$ and $a \mid c$, then let $b = ma$ and $c = na$ for some integers $m$ and $n$. Then $b + c = ma + na = (m + n)a$, since $m+n$ is an integer, this means that $a \mid b+c$
+        \item 
+    Supposing that $ac \mid bc$ and $c \neq 0$. Choosing an integer $m$ such that $bc = acm$, then since $c \neq 0$, $b = am$, since $m$ is an integer $a \mid b$
+    \end{enumerate}
+    % 19
+    \item
+    \begin{enumerate}
+        \item
+    Let $z = (y - x) / 2$, then $x + z = x + \frac{y - x}{2} = y - \frac{y - x}{2} = y - z$.
+        \item 
+    No, counterexample $x = 1, y = 2$, then $z = 1/2$.
+    \end{enumerate}
+    % 20
+    \item
+    The negation of an universal quantifier should be an existential quantifier.
+    % 21
+    \item
+    \begin{enumerate}
+        \item
+    It is assuming that elements in $B$ are elements in $A$. Which given the constraints, might not be the case.
+        \item
+    $A = \{1,2\}; B = \{0,1,2\}$ 
+    \end{enumerate}
+    % 22
+    \item
+    $x$ needs to be instantiated before $y$, thus it cannot be defined in terms of $y$.
+    % 23
+    \item
+    \begin{enumerate}
+        \item 
+    The emptyset is a set that could have every one of it's elements in both $A$ and $B$, however that won't mean that $\cup \mathscr{F}$ and $\cup \mathscr{F}$ are not disjoint.
+        \item 
+    $\mathscr{F} = \{\emptyset, \{1\}\}; \mathscr{G} = \{\emptyset, \{2\}\}$
+    \end{enumerate}
+    % 24
+    \item
+    \begin{enumerate}
+        \item
+    The proof is reducing the scope of the theorem to a single real number, that is, it is assuming that the values of $x$ and $y$ are equal, but they might not be.
+        \item 
+    Incorrect. $x=0, y=1$
+    \end{enumerate}
+    % 25
+    \item
+    For an arbitrary $x$, let $y = 2x$ and for an arbitrary $z$, then $yz = 2xz = (x + z)^2 - (x^2 + z^2)= x^2 + 2xz + z^2 - x^2 - z^2 = 2xz = yz$.
+    % 26
+    \item
+    \begin{enumerate}
+        \item 
+    Introduce a new variable $x$ without specifying it's value.
+    Introduce a new variable $x$ specifying a value to be assigned to it.
+        \item 
+    When using proof by contradiction, a goal with a quantifier is converted to a given of the other kind.
+    \end{enumerate}
+\end{enumerate}

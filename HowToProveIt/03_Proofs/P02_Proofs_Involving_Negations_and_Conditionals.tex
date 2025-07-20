@@ -1,0 +1,122 @@
+\begin{enumerate}
+    % 1
+    \item
+    \begin{enumerate}
+        \item 
+        Suppose that $P$. $P \rightarrow Q$ then $Q$. $Q \rightarrow R$ then $R$, therefore $P \rightarrow R$
+        \item
+        Suppose that $P$. Suppose that $\lnot R$ then $P \rightarrow \lnot Q$, so $\lnot Q$, there fore $\lnot Q$ and $P \rightarrow (Q \rightarrow R)$
+    \end{enumerate}
+    % 2
+    \item
+    \begin{enumerate}
+        \item 
+        Suppose that $P$. Then $Q$, Since $Q$ then $\lnot R$, therefore $P \rightarrow \lnot R$
+        \item 
+        Suppose that $Q$. Assumming that $Q \rightarrow \lnot P$ then $\lnot P$ but $P$, therefore $\lnot Q \rightarrow \lnot P$.
+    \end{enumerate}
+    % 3
+    \item
+    Suppose $x \in A$, since $A \subseteq C$, then $x \in C$, but since $B \cap C = \emptyset$, then $x \notin B$.
+    % 4
+    \item 
+    Suppose $x \in C$, since $A \setminus B \cap C = \emptyset$ means that $x \notin A \setminus B$, since $x \in A$, then $x \in B$.
+    % 5
+    \item 
+    Suppose that $x \in A \setminus B$ and $x \in B \setminus C$, since $x \in A \setminus B$, $x \in A$ and $x \notin B$ and since $x \in B \setminus C$, $x \in B$ and $x \notin C$
+    % 6
+    \item 
+    Suppose that $A \cap C \subseteq B$ and $a \in C$. Suppose that $a \in A\ setminus B$, then $a \in A$ and $a \notin B$, since $a \in A$ and $a \in C$ then $a \in A \cap C$, since $A \cap C \subseteq B$, then $a \in B$ but $a \notin B$, thus $a \notin A \setminus B$
+    % 7
+    \item 
+    Suppose that $A \subseteq B$, $a \in A$ and $a \notin B \setminus C$. Suppose that $a \notin C$, then $a \notin B$ and since $a \subseteq B$, then $a \notin A$ but $a \in A$, therefore $a \notin C$
+    % 8
+    \item 
+    Suppose that $y + x = 2y - x$ and that $x$ and $y$ are not both zero. Suppose that $y = 0$, then $x = 0$ but both $x$ and $y$ cannot be both zero, thus $y \not = 0$
+    % 9
+    \item 
+    Suppose that $a < \frac{1}{a} < b < \frac{1}{b}$. Suppose that $a \geq -1$, then $-1 \geq a < 0$ and $0 < a$, then since $a \geq -1$ means that $a \geq \frac{1}{a}$ but $a < \frac{1}{a}$ leads to a contradiction, next for $0 < a$ means that $a \in (0,1)$, but $1 < \frac{1}{a} < b$ means that $b > 1$ but $b < \frac{1}{b}$ leading to a contradiction, thus $a < -1$
+    % 10
+    \item 
+    Suppose that $x^2y = 2x + y$ and that $y \neq 0$. Suppose that $x = 0$, then $y = 0$ but $t \neq 0$, leading to a contradiction, thus $x \neq 0$
+    % 11
+    \item 
+    Suppose that $x \neq 0$ and $y=\frac{3x^2+2y}{x^2+2}$ and that $y \neq 3$, then simplifying $y=\frac{3x^2+2y}{x^2+2}$ for $y$ leads to $y = 3$ but $y \neq 3$, thus leading to a contradiction, therefore $y = 3$
+    % 12
+    \item 
+    \begin{enumerate}
+        \item Negating the conclusion of the theorem would mean that $x=3$ \textbf{or} $y=8$.
+        \item $x=3, y=7$
+    \end{enumerate}
+    % 13
+    \item 
+    \begin{enumerate}
+        \item If an element is not the a subset of a set, it doesnt mean that it isn't in the set.
+        \item $A={1,2,3}, B={4}, C={1,2,3,4}$, $3 \in A$ but $3 \notin B$
+    \end{enumerate}
+    % 14
+    \item 
+    \begin{tabular}{c|c|c|c|c}
+        $P$ & $Q$ & $P \rightarrow Q$ & $\lnot Q$ & $\lnot P$\\ \hline
+        $F$ & $F$ & $T$ & $T$ & $T$ \\
+        $F$ & $T$ & $T$ & $F$ & $T$ \\
+        $T$ & $F$ & $F$ & $T$ & $F$ \\
+        $T$ & $T$ & $T$ & $F$ & $F$ \\
+    \end{tabular}
+    % 15
+    \item
+    \begin{tabular}{c|c|c|c|c}
+        $P$ & $Q$ & $R$ & $P \rightarrow (Q \rightarrow R)$ & $\lnot R \rightarrow (P \rightarrow \lnot Q)$\\ \hline
+        $F$ & $F$ & $F$ & $T$ & $T$ \\
+        $F$ & $F$ & $T$ & $T$ & $T$ \\
+        $F$ & $T$ & $F$ & $T$ & $T$ \\
+        $F$ & $T$ & $T$ & $T$ & $T$ \\
+        $T$ & $F$ & $F$ & $T$ & $T$ \\
+        $T$ & $F$ & $T$ & $T$ & $T$ \\
+        $T$ & $T$ & $F$ & $F$ & $F$ \\
+        $T$ & $T$ & $T$ & $T$ & $T$ \\
+    \end{tabular}
+    % 16
+    \item 
+    \begin{enumerate}
+        \item 
+        \begin{tabular}{c|c|c|c|c|c}
+        $P$ & $Q$ & $R$ & $P \rightarrow Q$ & $Q \rightarrow R$ & $P \rightarrow R$ \\ \hline
+        $F$ & $F$ & $F$ & $T$ & $T$ & $T$ \\
+        $F$ & $F$ & $T$ & $T$ & $T$ & $T$ \\
+        $F$ & $T$ & $F$ & $T$ & $F$ & $T$ \\
+        $F$ & $T$ & $T$ & $T$ & $T$ & $T$ \\
+        $T$ & $F$ & $F$ & $F$ & $T$ & $F$ \\
+        $T$ & $F$ & $T$ & $F$ & $T$ & $T$ \\
+        $T$ & $T$ & $F$ & $T$ & $F$ & $F$ \\
+        $T$ & $T$ & $T$ & $T$ & $T$ & $T$ \\
+        \end{tabular}
+        \item 
+        Same truth table but with premise and conclusion reversed
+    \end{enumerate}
+    % 17
+    \item 
+    \begin{enumerate}
+        \item 
+        \begin{tabular}{c|c|c|c|c|c}
+        $P$ & $Q$ & $R$ & $P \rightarrow Q$ & $R \rightarrow \lnot Q$ & $P \rightarrow \lnot R$ \\ \hline
+        $F$ & $F$ & $F$ & $T$ & $T$ & $T$ \\
+        $F$ & $F$ & $T$ & $T$ & $T$ & $T$ \\
+        $F$ & $T$ & $F$ & $T$ & $T$ & $T$ \\
+        $F$ & $T$ & $T$ & $T$ & $F$ & $T$ \\
+        $T$ & $F$ & $F$ & $F$ & $T$ & $T$ \\
+        $T$ & $F$ & $T$ & $F$ & $T$ & $F$ \\
+        $T$ & $T$ & $F$ & $T$ & $T$ & $T$ \\
+        $T$ & $T$ & $T$ & $T$ & $F$ & $F$ \\
+        \end{tabular}
+        \item 
+        \begin{tabular}{c|c|c}
+            $P$ & $Q$ & $Q \rightarrow \lnot (Q \rightarrow \lnot P)$ \\ \hline
+            $T$ & $F$ & $T$ \\
+            $T$ & $T$ & $T$ \\
+        \end{tabular}
+    \end{enumerate}
+    % 18
+    \item 
+    No, to move the hypotheses would create a completely different statement. As proof the following is a counter example $x = -3$.
+\end{enumerate}

@@ -1,0 +1,19 @@
+Usually it's easier to prove a positive statement than a negative statement, so it is often helpful to reexpress a goal of the form $\lnot P$ before proving it.
+
+\textbf{To prove a goal of the form} $\lnot P$:\\
+If possible, reexpress the goal in some other form and then use one of the proof strategies for this other goal form.
+
+Sometimes a goal of the form $\lnot P$ cannot be reexpressed as a positive statement. In this case it is usually best to do a \textit{proof by contradiction}. Start by assumming that $P$ is true, and try to use this assumption to prove something that you know is false. Often this is done by proving a statement that contradicts one of the givens. Because you know that the statement you have proven is false, the assumption that $P$ was true must have been incorrect. The only remaining possibility then is that $P$ is false.
+
+\textbf{To prove a goal of the form} $\lnot P$:\\
+Assume $P$ is true and try to reach a contradiction. Once you have reached a contradiction, you can conclude that $P$ must be false.
+
+\textbf{Modus Ponens} If you know that both $P$ and $P \rightarrow Q$ are true, you can conclude that $Q$ must also be true.
+\[P\]
+\[P \rightarrow Q\]
+\[\therefore Q\]
+
+\textbf{Modus Tollens} If you know that $P \rightarrow Q$ is true and $Q$ is false, you can conclude that $P$ must also be false.
+\[P \rightarrow Q\]
+\[\lnot Q\]
+\[\therefore \lnot P\]

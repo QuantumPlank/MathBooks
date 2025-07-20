@@ -1,0 +1,12 @@
+\textbf{To prove a goal of the form} $\forall x P(x)$:\\
+Let $x$ stand for an arbitrary object and prove $P(x)$. The letter $x$ must be a new variable in the proof. If $x$ is already being used in the proof to stand for something, then you must choose an unused variable, say $y$, to stand for the arbitrary object, and prove $P(y)$
+
+\textbf{To prove a goal of the form} $\exists x P(x)$:\\
+Try to find a value of $x$ for which you think $P(x)$ will be true. Then start your proof with "Let $x = (\text{the decided value})$ and proceed to prove $P(x)$ for this value of $x$. Once again, $x$ should be a new variable. If the letter $x$ is already being used in the proof for some other purpose, then you should choose an unused variable, say $y$, and rewrite the goal in the equivalent form $\exists y P(y)$. Now proceed as before by starting your proof with "Let $y = (\text{the decided value})$" and prove $P(y)$.
+
+\textbf{To use a given of the form} $\exists x P(x)$:\\
+Introduce a new variable $x_0$ into the proof to stand for an object fir which $P(x_0)$ is true. This means that you can now assume that $P(x_0)$ is true. Logicians call this rule of inference \textit{existential instantiation}.
+
+\textbf{To use a given of the form} $\forall x P(x)$: \\
+You can plug in any value, say $a$, for $x$ and use this given to conclude that $P(a)$ is true. This rule is called \textit{universal instantiation}.
+
