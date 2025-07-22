@@ -8,6 +8,13 @@ Sometimes a goal of the form $\lnot P$ cannot be reexpressed as a positive state
 \textbf{To prove a goal of the form} $\lnot P$:\\
 Assume $P$ is true and try to reach a contradiction. Once you have reached a contradiction, you can conclude that $P$ must be false.
 
+\textbf{To use a given of the form} $\lnot P$:\\
+If you're doing a proof by contradiction, try making $P$ your goal. If you can prove $P$, then the proof will be complete, because $P$ contradicts the given $\lnot P$.
+If you're not doing a proof by contradiction, then if possible, reexpress this given in some other form.
+
+\textbf{To use a given of the form} $P \rightarrow Q$:\\
+If you are also given $P$, or if you can prove that $P$ is true, then you can use this given to conclude that $Q$ is true. Since it is equivalent to $\lnot Q \rightarrow \lnot P$, if you can prove that $Q$ is false, you can use this given to conclude that $P$ is false.
+
 \textbf{Modus Ponens} If you know that both $P$ and $P \rightarrow Q$ are true, you can conclude that $Q$ must also be true.
 \[P\]
 \[P \rightarrow Q\]

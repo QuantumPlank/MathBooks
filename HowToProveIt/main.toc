@@ -38,20 +38,20 @@
 \contentsline {section}{\numberline {3.3}Proofs Involving Quantifiers}{38}{}%
 \contentsline {subsection}{\numberline {3.3.1}Recapitulation}{38}{}%
 \contentsline {subsection}{\numberline {3.3.2}Problems}{39}{}%
-\contentsline {section}{\numberline {3.4}Proofs Involving Conjunctions and Biconditionals}{42}{}%
-\contentsline {subsection}{\numberline {3.4.1}Recapitulation}{42}{}%
+\contentsline {section}{\numberline {3.4}Proofs Involving Conjunctions and Biconditionals}{41}{}%
+\contentsline {subsection}{\numberline {3.4.1}Recapitulation}{41}{}%
 \contentsline {subsection}{\numberline {3.4.2}Problems}{42}{}%
-\contentsline {section}{\numberline {3.5}Proofs Involving Disjunctions}{42}{}%
-\contentsline {subsection}{\numberline {3.5.1}Recapitulation}{42}{}%
-\contentsline {subsection}{\numberline {3.5.2}Problems}{42}{}%
-\contentsline {section}{\numberline {3.6}Existence and Uniqueness Proofs}{42}{}%
-\contentsline {subsection}{\numberline {3.6.1}Recapitulation}{42}{}%
-\contentsline {subsection}{\numberline {3.6.2}Problems}{42}{}%
-\contentsline {section}{\numberline {3.7}More Examples of Proofs}{42}{}%
-\contentsline {subsection}{\numberline {3.7.1}Recapitulation}{42}{}%
-\contentsline {subsection}{\numberline {3.7.2}Problems}{42}{}%
-\contentsline {chapter}{\numberline {4}Relations}{43}{}%
-\contentsline {chapter}{\numberline {5}Functions}{44}{}%
-\contentsline {chapter}{\numberline {6}Mathematical Induction}{45}{}%
-\contentsline {chapter}{\numberline {7}Number Theory}{46}{}%
-\contentsline {chapter}{\numberline {8}Infinite Sets}{47}{}%
+\contentsline {section}{\numberline {3.5}Proofs Involving Disjunctions}{44}{}%
+\contentsline {subsection}{\numberline {3.5.1}Recapitulation}{44}{}%
+\contentsline {subsection}{\numberline {3.5.2}Problems}{44}{}%
+\contentsline {section}{\numberline {3.6}Existence and Uniqueness Proofs}{44}{}%
+\contentsline {subsection}{\numberline {3.6.1}Recapitulation}{44}{}%
+\contentsline {subsection}{\numberline {3.6.2}Problems}{44}{}%
+\contentsline {section}{\numberline {3.7}More Examples of Proofs}{44}{}%
+\contentsline {subsection}{\numberline {3.7.1}Recapitulation}{44}{}%
+\contentsline {subsection}{\numberline {3.7.2}Problems}{44}{}%
+\contentsline {chapter}{\numberline {4}Relations}{45}{}%
+\contentsline {chapter}{\numberline {5}Functions}{46}{}%
+\contentsline {chapter}{\numberline {6}Mathematical Induction}{47}{}%
+\contentsline {chapter}{\numberline {7}Number Theory}{48}{}%
+\contentsline {chapter}{\numberline {8}Infinite Sets}{49}{}%
