@@ -59,29 +59,80 @@
     Now suppose that $x \neq z = 1$. Let $y = \frac{x^2}{x - 1}$, then $y - x = \frac{x^2}{x - 1} - x = \frac{x^2 - x^2 + x}{x - 1} = \frac{x}{x - 1} = \frac{1}{x} \cdot \frac{x^2}{x - 1} = y/x$
     %15
     \item
-    
+    Let $x$ be an arbitrary element of $\cup \{A \setminus B \mid A \in \mathscr{F}\}$, then choose some $A$ in $\mathscr{F}$, such that $x \in A \setminus B$, which means that $x \in A$ and $x \notin B$. Since $x \in A$ and $x \notin B$, $A \not \subseteq B$, thus $A \not \in \mathscr{P}(B)$. Since $A \in \mathscr{F}$ and $A \not \in \mathscr{P}(B)$, $A \in \mathscr{F} \setminus \mathscr{P}(B)$. And since $x \in A$, $x \in \mathscr{F} \setminus \mathscr{P}(B)$, since $x$ was an arbitrary element of $\cup \{A \setminus B \mid A \in \mathscr{F}\}$, $\cup \{A \setminus B \mid A \in \mathscr{F}\} \subseteq \cup(\mathscr{F} \setminus \mathscr{P}(B))$
     %16
     \item
+    Suppose that $\cup \mathscr{F}$ and $\cap \mathscr{G}$ are not disjoint. Then we can choose some $x$ such that $x \in \cup \mathscr{F}$ and $x \in \cap \mathscr{G}$. Then for some $A \in \mathscr{F}$, $x \in A$. Then for some $B \in \mathscr{G}$ such that $A \cap B = \emptyset$, since $x \in A$, $x \notin B$. But since $x \in \cap \mathscr{G}$ means that $x \in B$, we arrive at a contradiction, thus $\cup \mathscr{F}$ and $\cap \mathscr{G}$ are disjoint.
     %17
     \item
+    Let $A$ be an arbitrary set. Suppose $x \in A$. Since $A \subseteq A$, $A \in \mathscr{P}(A)$ , which means that $x \in \cup \mathscr{P}(A)$, since $x$ was an arbitrary element of $A$, $A \subseteq \mathscr{P}(A)$.
+    Now supposing that $x \in \cup \mathscr{P}(A)$. Then choosing some $X \in \mathscr{P}(A)$, such that $x \in X$. Since $X \in \mathscr{P}(A)$, $X \subseteq A$, since $x \in X$, $x \in A$. Since $x$ was arbitrary, we can conclude that $\cup \mathscr{P}(A) \subseteq A$.
+    Since $A \subseteq \mathscr{P}(A)$ and $\cup \mathscr{P}(A) \subseteq A$, $A = \mathscr{P}(A)$.
     %18
     \item
+    \begin{enumerate}
+        \item 
+    Let $x$ be an arbitrary element of $\cup (\mathscr{F} \cap \mathscr{G})$. Choose some $X$ in $\mathscr{F} \cap \mathscr{G}$ such that $x \in X$. Since $X \in \mathscr{F} \cap \mathscr{G}$, $X \in \mathscr{F}$ and $X \in \mathscr{G}$, thus $X \subseteq \cup \mathscr{F}$ which means that $x \in \cup \mathscr{F}$, similarly we see that $x \in \cup \mathscr{G}$. Thus $x \in (\cup \mathscr{F}) \cap (\cup \mathscr{G})$. Since $x$ was arbitrary $\cup (\mathscr{F} \cap \mathscr{G}) \subseteq (\cup \mathscr{F}) \cap (\cup \mathscr{G})$
+        \item 
+    The proof uses the same set $A$ for both $\mathscr{F}$ and $\mathscr{G}$ which might not be the case. We cannot assume that both sets are the same.
+        \item 
+    $\mathscr{F} = \{\{1\}, \{2\}\}$ and $\mathscr{G}\{\{1\}, \{1,2\}\}$
+    \end{enumerate}
     %19
     \item
+    Suppose that $(\cup \mathscr{F}) \cap (\cup \mathscr{G}) \subseteq \cup (\mathscr{F} \cap \mathscr{G})$. Let $A \in \mathscr{F}$ and $B \in \mathscr{G}$. Suppose that $x \in A \cap B$. Then $x \in A$ and $x \in B$, thus $x \in \cup \mathscr{F}$ and $x \in \cup \mathscr{G}$, which means that $x \in (\cup \mathscr{F}) \cap (\cup \mathscr{G})$, since $x$ was an arbitrary element of $A \cap B$, then $A \cap B \subseteq \cup (\mathscr{F} \cap \mathscr{G})$. 
+    
+    Now suppose that $\forall A \in \mathscr{F} \forall B \in \mathscr{G}(A \cap B \subseteq \cup (\mathscr{F} \cap \mathscr{G}))$. Let $A$ and $B$ be arbitrary elements of $\mathscr{F}$ and $\mathscr{G}$ respectively. Let $x$ be an arbitrary element of $(\cup \mathscr{F}) \cap (\cup \mathscr{G})$, which means that $x \in \cup \mathscr{F}$ and $x \in \cup \mathscr{G}$, thus $x \in A$ and $x \in B$, since $x \in A \cap B$, and $A \cap B \subseteq \cup (\mathscr{F} \cap \mathscr{G})$, $x \in \cup (\mathscr{F} \cap \mathscr{G})$, since $x$ was an arbitrary element of $(\cup \mathscr{F}) \cap (\cup \mathscr{G})$, $(\cup \mathscr{F}) \cap (\cup \mathscr{G}) \subseteq \cup (\mathscr{F} \cap \mathscr{G})$
     %20
     \item
+    Supposing that $\cup \mathscr{F}$ and $\cup \mathscr{G}$ are disjoint. Suppose that $\exists A \in \mathscr{F} \exists B \in \mathscr{G} (A \cap B \neq \emptyset)$. Then choosing some $A \in \mathscr{F}$ and $B \in \mathscr{G}$. Let $x \in A \cap B$, which means that $x \in A$ and $x \in B$ which means that $x \in \cup \mathscr{F}$ and $x \in \cup \mathscr{G}$. But $\cup \mathscr{F}$ and $\cup \mathscr{G}$ are disjoint. Since we arrived at a contradiction, $\forall A \in \mathscr{F} \forall B \in \mathscr{G} (A \cap B = \emptyset)$
+    Now supposing that $\forall A \in \mathscr{F} \forall B \in \mathscr{G} (A \cap B = \emptyset)$, suppose that $\cup \mathscr{F}$ and $\cup \mathscr{G}$ are not disjoint. Let $x$ be an arbitrary element of $(\cup \mathscr{F}) \cap (\cup \mathscr{G})$, which means that $x \in \cup \mathscr{F}$ and $x \in \cup \mathscr{G}$. So there exists sets $A \in \mathscr{F}$ and $B \in \mathscr{G}$, such that $x \in A$ and $x \in B$ but $A$ and $B$ are disjoint. Thus $\forall A \in \mathscr{F} \forall B \in \mathscr{G} (A \cap B = \emptyset)$
     %21
     \item
+    \begin{enumerate}
+        \item 
+    Let $x \in (\cup \mathscr{F}) \setminus (\cup \mathscr{G})$, thus $x \in \cup \mathscr{F}$ and $x \notin (\cup \mathscr{G})$. Then for some $A \in \mathscr{F}$, $x \in A$. Supposing that $A \in \mathscr{G}$, then since $x \in A$, $x \in \cup \mathscr{G}$, but $x \notin \cup \mathscr{G}$, thus $A \notin \mathscr{G}$, Which means that $A \in \mathscr{F} \setminus \mathscr{G}$, thus $x \in \cup (\mathscr{F} \setminus \mathscr{G})$
+        \item 
+    The fact that $A$ is not in $\mathscr{G}$, doesn't meant that there is no other set in $\mathscr{G}$ that contains $x$, thus we cannot derive that $x \notin \cup \mathscr{G}$ from $A \notin \mathscr{G}$ and $A \notin \mathscr{G}$
+        \item 
+    Supposing that $\cup (\mathscr{F} \setminus \mathscr{G}) \subseteq (\cup \mathscr{F}) \cap (\cup \mathscr{G})$. Suppose that $\exists A \in (\mathscr{F} \setminus \mathscr{G}) \exists B \in \mathscr{G}(A \cap B \neq \emptyset)$. Choosing some $A \in \mathscr{F}$ and some $B \in \mathscr{G}$ such that $x \in A \cap B$, then $x \in A$ and $x \in B$. Since $A \in (\mathscr{F} \setminus \mathscr{G})$, $x \in \cup (\mathscr{F} \setminus \mathscr{G})$ and since $\cup (\mathscr{F} \setminus \mathscr{G}) \subseteq (\cup \mathscr{F}) \setminus (\cup \mathscr{G})$, $x \in (\cup \mathscr{F}) \setminus (\cup \mathscr{G})$, thus $x \in \cup \mathscr{F}$ and $x \notin \cup \mathscr{G}$. Since $x \notin \cup \mathscr{G}$, but $B \in \mathscr{G}$ and $x \in B$, $x \in \cup \mathscr{G}$. Since we arribed at a contradiction $\forall A \in (\mathscr{F} \setminus \mathscr{G}) \forall B \in \mathscr{G} (A \cap B = \emptyset)$.
+    Now suppose that $\forall A \in (\mathscr{F} \setminus \mathscr{G}) \forall B \in \mathscr{G} (A \cap B = \emptyset)$. Let $A$ and $B$ be arbitrary. Let $x$ be an arbitrary element of $\cup (\mathscr{F} \setminus \mathscr{G})$. Choosing some $A \in \mathscr{F} \setminus \mathscr{G}$ such that $x \in A$. Thus $A \in \mathscr{F}$ and $A \notin \mathscr{G}$. Then since $A \in \mathscr{F}$, $x \in \cup \mathscr{F}$, and since $A \cap B = \emptyset$, $x \notin B$, thus $x \notin \cup \mathscr{G}$, then $x \in (\cup \mathscr{F}) \setminus (\cup \mathscr{G})$. Since $x$ was an arbitrary element of $\cup (\mathscr{F} \setminus \mathscr{G})$, $\cup (\mathscr{F} \setminus \mathscr{G}) \subseteq (\cup \mathscr{F}) \setminus (\cup \mathscr{G})$
+        \item 
+    $\mathscr{F} = \{\{1\}, \{1,2\}\}; \mathscr{G} = \{\{1\}, \{2\}\}$
+    \end{enumerate}
     %22
     \item
+    Supposing that $\cup \mathscr{F} \not \subseteq \cup \mathscr{G}$. Then suppose that $\forall A \in \mathscr{F} \exists B \in \mathscr{G} (A \subseteq B)$. Let $A$ be an arbitrary element of $\mathscr{F}$ and for some $B \in \mathscr{G}$ such that $A \subseteq B$. Let $x$ be an arbitrary element of $A$, then since $A \subseteq B$, $x \in A \land x \in B$. Since $x \in A$ and $A \in \mathscr{F}$, $x \in \cup \mathscr{F}$, similarly, $x \in \cup \mathscr{G}$. Since $x$ was arbitrary this means that $\cup \mathscr{F} \subseteq \cup \mathscr{G}$, but $\cup \mathscr{F} \not \subseteq \cup \mathscr{G}$. Since we arrived at a contradiction $\cup \mathscr{F} \not \subseteq \cup \mathscr{G} \rightarrow \exists A \in \mathscr{F} \forall B \in \mathscr{G} (A \not \subseteq B)$
     %23
     \item
+    \begin{enumerate}
+        \item Direct proofs using existential instantiation on both directions.
+        \item 
+    Let $x$ be arbitrary. Suppose that $x \in B \setminus (\cup_{i \in I} A_i)$, then $x \in B$ and $x \not in (\cup_{i \in I} A_i)$. Let $i$ be an arbitrary element of $I$, then $x \not \in A_i$. Since $x \in B$, and $x \not \in A_i$, $x \in B \setminus A_i$. Since $i$ was arbitrary $x \in \cap_{i \in I} (B \setminus A_i)$. Thus $B \setminus \cup_{i \in I} A_i \subseteq \cap_{i \in I} (B \setminus A_i)$.
+    Now suppose that $x \in \cap_{i \in I} (B \setminus A_i)$. Let $i$ be an arbitrary element of $I$, then $x \in B \setminus A_i$. Thus $x \in B$ and $x \not \in A_i$. Since $i$ was arbitrary $x \not \in \cup_{i \in I} A_i$, and since $x \in B$, $x \in B \setminus (\cup_{i \in I} A_i)$. Thus $B \setminus (\cup_{i \in I} A_i) = \cap_{i \in I} (B \setminus A_i)$
+        \item 
+    $B \setminus (\cap_{i \in I} A_i) = \cup_{i \in I} (B \setminus A_i)$.\\
+    Let $x$ be arbitrary. Suppose that $x \in B \setminus (\cap_{i \in I} A_i)$. Then $x \in B$ and $x \not \in \cap_{i \in I} A_i$. Choosing some $i \in I$ such that $x \not \in A_i$. Then since $x \in B$ and $x \not \in A_i$, $x \in B \setminus A_i$. Thus $x \in \cup_{i \in I} (B \setminus A_i)$. Since $x$ was arbitrary $\cup_{i \in I} (B \setminus A_i)$ \\
+    Now suppose that $x \in \cup_{i \in I}(B \setminus A_i)$. Choosing some $i \in I$ such that $x \in B \setminus A_i$. Then $x \in B$ and $x \not \in A_i$. Since $A_i$ was specific, then $x \not \in \cap_{i \in I} A_i$. Now since $x \in B$ and $x \not \in \cap_{i \in I} A_i$, $x \in B \setminus (\cap_{i \in I} A_i)$. Since $x$ was arbitrary $B \setminus (\cap_{i \in I} A_i)$.
+    \end{enumerate}
     %24
     \item
+    \begin{enumerate}
+        \item 
+    Let $x$ be arbitrary. Suppose that $x \in \cup_{i \in I}(A_i \setminus B_i)$. Choose some $i \in I$ such that $x \in A_i \setminus B_i$, Then $x \in A_i$ and $x \not \in B_i$.
+    Since $x \in A_i$, $x \in \cup_{i \in I} A_i$, similarly, since $x \not \in B_i$, $x \not \in \cap_{i \in I} B_i$. Thus $x \in (\cup_{i \in I} A_i) \setminus (\cap_{i \in I} B_i)$. Since $x$ was arbitrary, then $\cup_{i \in I}(A_i \setminus B_i) \subseteq (\cup_{i \in I} A_i) \setminus (\cap_{i \in I} B_i)$
+        \item 
+    $I=\{1,2\}; A_1 = B_1 = \{1\}; A_2 = B_2 = \{2\}$
+    \end{enumerate}
     %25
     \item
+    \begin{enumerate}
+        \item 
+    Let $x$ be arbitrary. Suppose that $x \in \cup_{i \in I}(A_i \cap B_i)$. Choosing some $i \in I$ such that $x \in A_i \cap B_i$ then $x \in A_i$ and $x \in B_i$. Since $x \in A_i$, $x \in \cup_{i \in I} A_i$, similarly, since $x \in B_i$, $x \in \cup_{i \in I} B_i$. Since $x \in \cup_{i \in I} A_i$ and $x \in \cup_{i \in I} B_i$, $x \in (\cup_{i \in I} A_i) \cap (\cup_{i \in I} B_i)$. Since $x$ was arbitrary, $\cup_{i \in I}(A_i \cap B_i) \subseteq (\cup_{i \in I} A_i) \cap (\cup_{i \in I} B_i)$
+    \end{enumerate}
     %26
     \item
+    Let $a$ and $b$ be arbitrary integers. Choosing $c = ab$, then $a \mid c$ and $b \mid c$
     %27
     \item
 \end{enumerate}

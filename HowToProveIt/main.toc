@@ -41,17 +41,17 @@
 \contentsline {section}{\numberline {3.4}Proofs Involving Conjunctions and Biconditionals}{41}{}%
 \contentsline {subsection}{\numberline {3.4.1}Recapitulation}{41}{}%
 \contentsline {subsection}{\numberline {3.4.2}Problems}{42}{}%
-\contentsline {section}{\numberline {3.5}Proofs Involving Disjunctions}{44}{}%
-\contentsline {subsection}{\numberline {3.5.1}Recapitulation}{44}{}%
-\contentsline {subsection}{\numberline {3.5.2}Problems}{44}{}%
-\contentsline {section}{\numberline {3.6}Existence and Uniqueness Proofs}{44}{}%
-\contentsline {subsection}{\numberline {3.6.1}Recapitulation}{44}{}%
-\contentsline {subsection}{\numberline {3.6.2}Problems}{44}{}%
-\contentsline {section}{\numberline {3.7}More Examples of Proofs}{44}{}%
-\contentsline {subsection}{\numberline {3.7.1}Recapitulation}{44}{}%
-\contentsline {subsection}{\numberline {3.7.2}Problems}{44}{}%
-\contentsline {chapter}{\numberline {4}Relations}{45}{}%
-\contentsline {chapter}{\numberline {5}Functions}{46}{}%
-\contentsline {chapter}{\numberline {6}Mathematical Induction}{47}{}%
-\contentsline {chapter}{\numberline {7}Number Theory}{48}{}%
-\contentsline {chapter}{\numberline {8}Infinite Sets}{49}{}%
+\contentsline {section}{\numberline {3.5}Proofs Involving Disjunctions}{46}{}%
+\contentsline {subsection}{\numberline {3.5.1}Recapitulation}{46}{}%
+\contentsline {subsection}{\numberline {3.5.2}Problems}{46}{}%
+\contentsline {section}{\numberline {3.6}Existence and Uniqueness Proofs}{46}{}%
+\contentsline {subsection}{\numberline {3.6.1}Recapitulation}{46}{}%
+\contentsline {subsection}{\numberline {3.6.2}Problems}{46}{}%
+\contentsline {section}{\numberline {3.7}More Examples of Proofs}{46}{}%
+\contentsline {subsection}{\numberline {3.7.1}Recapitulation}{46}{}%
+\contentsline {subsection}{\numberline {3.7.2}Problems}{46}{}%
+\contentsline {chapter}{\numberline {4}Relations}{47}{}%
+\contentsline {chapter}{\numberline {5}Functions}{48}{}%
+\contentsline {chapter}{\numberline {6}Mathematical Induction}{49}{}%
+\contentsline {chapter}{\numberline {7}Number Theory}{50}{}%
+\contentsline {chapter}{\numberline {8}Infinite Sets}{51}{}%
