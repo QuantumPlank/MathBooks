@@ -1,8 +1,12 @@
+A goal of the form $P \land Q$ is treated as two separate goals. The same is true of gives of the same form.
+
 \textbf{To prove a goal of the form} $P \land Q$:\\
 Prove $P$ and $Q$ separately.
 
 \textbf{To use a given of the form} $P \land Q$:\\
 Treat this given as two separate givens: $P$, and $Q$.
+
+To deal with statements of the for $P \iff Q$, we convert it into its equivalent form of $(P \rightarrow Q) \land (Q \rightarrow P)$. Thus a biconditional is transform as two separate givens or goals.
 
 \textbf{To prove a goal of the form} $P \iff Q$:\\
 Prove $P \rightarrow Q$ and $Q \rightarrow P$ separately.

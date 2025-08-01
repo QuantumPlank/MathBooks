@@ -1,0 +1,98 @@
+\newcommand{\case}[1]{\\\hspace*{2em}(Case #1)}
+\newcommand{\rdir}{\\$(\rightarrow)$}
+\newcommand{\ldir}{\\$(\rightarrow)$}
+
+\begin{enumerate}
+    % 1
+    \item
+    Let x be arbitrary. Suppose that $x \in A \cap (B \cup C)$. Then $x \in A$ and $x \in B \lor x \in C$.
+    \case{1} Suppose that $x \in B$. Since $x \in A \land x \in B$, $x \in (A \cap B) \cup C$.
+    \case{2} Suppose that $x \in C$. Since $x \in A \land x \in C$, $x \in (A \cap B) \cup C$.
+    
+    Since $x$ was arbitrary, $A \cap (B \cup C) \subseteq (A \cap B) \cup C$.
+    % 2
+    \item
+    Let $x$ be arbitrary. Suppose that $x \in (A \cup B) \setminus C$. Then $(x \in A \lor x \in C) \land x \notin C$.
+    \case{1} Suppose that $x \in A$. Since $x \in A \land x\notin C$. $x \in A \cup (B \setminus C)$
+    \case{2} Suppose that $x \in B$. Since $x \in A \land x \in B$. $x \in A \cup (B \setminus C)$
+    
+    Since $x$ was arbitrary, $(A \cup B) \setminus C \subseteq A \cup (B \setminus C)$.
+    % 3
+    \item
+    Let $x$ be arbitrary.
+    \rdir Suppose that $x \in A \setminus (A \setminus B)$. Then $x \in A \land x \in B$, thus $x \in A \cap B$.
+    \ldir Suppose that $x \in A \cap B$. Then $x \in A \land x \in B$, thus $x \in A \setminus (A \setminus B)$.
+
+    Since $x$ was arbitrary, $A \setminus (A \setminus B) = A \cap B$
+    % 4
+    \item
+    Let $x$ be arbitrary.
+    \rdir Suppose $x \in A \setminus (B \setminus C)$, this means that $x \in A \land (x \notin B \lor x \in C)$.
+    \case{1} Suppose that $x \notin B$. Then $x \in A \land x \notin B$, thus $x \in (A \setminus B) \cup (A \cap C)$.
+    \case{2} Suppose that $x \in C$. Then $x \in A \land x \in C$, thus $x \in (A \setminus B) \cup (A \cap C)$.
+    \ldir Suppose that $x \in (A \setminus B) \cup (A \cap C)$, this means that $(x \in A \land x \notin B) \lor (x \in A \land x \in C)$
+    \case{1} Suppose that $x \in A \land x \notin B$. Then $x \in A \setminus (B \setminus C)$/
+    \case{2} Suppose that $x \in A \land x \in C$. Then $x \in A \setminus (B \setminus C)$
+
+    Since $x$ was arbitrary, $A \setminus (B \setminus C) = (A \setminus B) \cup (A \cap C)$
+    % 5
+    \item
+    Let $x$ be arbitrary.
+    \rdir Suppose that $x \in A$.
+    % 6
+    \item
+    % 7
+    \item
+    % 8
+    \item
+    % 9
+    \item
+    % 10
+    \item
+    % 11
+    \item
+    % 12
+    \item
+    % 13
+    \item
+    % 14
+    \item
+    % 15
+    \item
+    % 16
+    \item
+    % 17
+    \item
+    % 18
+    \item
+    % 19
+    \item
+    % 20
+    \item
+    % 21
+    \item
+    % 22
+    \item
+    % 23
+    \item
+    % 24
+    \item
+    % 25
+    \item
+    % 26
+    \item
+    % 27
+    \item
+    % 28
+    \item
+    % 29
+    \item
+    % 30
+    \item
+    % 31
+    \item
+    % 32
+    \item
+    % 33
+    \item
+\end{enumerate}
