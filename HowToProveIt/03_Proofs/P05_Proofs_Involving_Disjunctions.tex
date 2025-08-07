@@ -1,6 +1,7 @@
 \newcommand{\case}[1]{\\\hspace*{2em}(Case #1)}
 \newcommand{\rdir}{\\$(\rightarrow)$}
 \newcommand{\ldir}{\\$(\rightarrow)$}
+\newcommand{\powerset}[1]{\mathscr{P}(#1)}
 
 \begin{enumerate}
     % 1
@@ -38,13 +39,27 @@
     % 5
     \item
     Let $x$ be arbitrary.
-    \rdir Suppose that $x \in A$.
+    Suppose $x \in A$.
+    \case{1} Suppose that $x \in C$. Then since $x \in A \cap C$, $x \in B \cap C$, thus $x \in B$.
+    \case{2} Suppose that $x \notin C$. Then since $x \in A \cup C$, $x \in B \cup C$, thus $x \in B$.
+
+    Since $x$ was arbitrary $A \subseteq B$.
     % 6
     \item
+    Let $x$ be arbitrary. Suppose that $A \triangle B \subseteq A$. Suppose that $B \not \subseteq A$. Then choosing some $x \in B$ such that $x \notin A$. Since $x \in B \land x \notin A$, $x \in B \setminus A$, thus $x \in A \triangle B$, since $A \triangle B \subseteq A$, $x \in A$, but $x \notin A$. Since we arrived at a contradiction, $B \subseteq A$.
     % 7
     \item
+    Let $x$ be arbitrary
+    \rdir Suppose that $A \cup C \subseteq B \cup C$. Suppose that $x \in A \setminus C$, then $x \in A$ and $x \notin C$ which means that $x \in A \cup C$, and since $A \cup C \subseteq B \cup C$, $x \in B \cup C$. Thus, since $x \notin C$ and $x \in B$, $x \in B \setminus C$.
+    \ldir Suppose that $A \setminus C \subseteq B \setminus C$. Suppose that $x \in A \cup C$.
+    \case{1} Suppose that $x \in C$. Then $x \in B \cup C$.
+    \case{2} Suppose that $x \notin C$. Then since $x \in A$ and $x \notin C$, $x \in A \setminus C$, since $A \setminus C \subseteq B \setminus C$, $x \in B \setminus C$, and since $x \notin C$, $x \in B$. Thus $x \in B \cup C$.
     % 8
     \item
+    Let $x$ be arbitrary. Suppose that $x \in \powerset{A} \cup \powerset{B}$.
+    \case{1} Suppose that $x \in \powerset{A}$. Let $y$ be an arbitrary element of $x$. Then $y \in A$, so $y \in A \cup B$, which means that $x \subseteq A \cup B$, thus $x \in \powerset{A \cup B}$
+    \case{2} By a similar argument supposing that $x \in \powerset{B}$, we arrive at $x \in \powerset{A \cup B}$.
+    Since $x$ was arbitrary $\powerset{A} \cup \powerset{B} \subseteq \powerset{A \cup B}$ 
     % 9
     \item
     % 10
