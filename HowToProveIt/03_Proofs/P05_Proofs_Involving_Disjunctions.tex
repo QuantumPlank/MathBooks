@@ -62,12 +62,26 @@
     Since $x$ was arbitrary $\powerset{A} \cup \powerset{B} \subseteq \powerset{A \cup B}$ 
     % 9
     \item
+    Suppose that $\powerset{A} \cup \powerset{B} = \powerset{A \cup B}$, then $A \cup B \subseteq A \cup B$, thus $A \cup B \in \powerset{A \cup B}$, since $\powerset{A} \cup \powerset{B} = \powerset{A \cup B}$, $A \cup B \in \powerset{A} \cup \powerset{B}$, so either $A \cup B \in \powerset{A}$ or $A \cup B \in \powerset{B}$.
+    \case{1} Suppose that $A \cup B \in \powerset{A}$, then $A \cup B \subseteq A$. Let $x \in B$, then $x \in A \cup B$, thus $x \in A$, since $x$ was arbitrary, $B \subseteq A$.
+    \case{2} By a similar argument we see that $A \subseteq B$.
+    Since these cases are exhaustive, we conclude that either $A \subseteq B$ or $B \subseteq A$
     % 10
     \item
+    Suppose that $x$ and $y$ are real numbers and that $x \neq 0$.
+    \rdir Suppose that $y + 1/x = 1 + y/x$, then $y - 1 = (y -1)/x$. Suppose that $x \neq 1$ and $y \neq 1$, then $y - 1 \neq 0$, thus $1 = 1/x$, that is, $x = 1$, but $x \neq 1$. Since we arrived at a contradiction $x = 1$ or $y = 1$.
+    \ldir Suppose that either $x = 1$ or $y = 1$.
+    \case{1} Suppose that $x = 1$, then $y + 1 = y + 1 / x = 1 + y / x$.
+    \case{2} Supposet that $y = 1$, then $y + 1/x = 1 + 1/x = 1 + y/x$
     % 11
-    \item
+    \item 
+    Suppose that $\mid x - 3 \mid > 3$
+    \case{1} Suppose that $x - 3 > 3$, then $x > 6$. Multiplying the inequality by $x$, we obtain that $x^2 > 6x$.
+    \case{2} Suppose that $- x + 3 > 3$, then $x < 0$. Multiplying the inequality by $6$ and by $x$, we see that $6x < 0$ and $x^2 > 0$, thus $x^2 > 6x$.
+    Since these cases are exhaustive, we conclude that $x^2 > 6x$
     % 12
     \item
+    
     % 13
     \item
     % 14
