@@ -1,0 +1,102 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem*{remark}{Remark}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Chapter 2: Limits and Continuity}}\\
+    \vspace{0.5em}
+    {\large 2.1 The Concept of a Limit}
+\end{center}
+
+\section*{Introduction}
+
+The concept of a limit is fundamental to calculus. It allows us to rigorously define
+continuity, derivatives, and integrals.
+
+\begin{definition}[Limit of a Function]
+Let $f$ be a function defined on an open interval containing $a$, except possibly at $a$ itself.
+We say that
+\[
+\lim_{x \to a} f(x) = L
+\]
+if for every $\varepsilon > 0$ there exists $\delta > 0$ such that
+\[
+0 < |x - a| < \delta \implies |f(x) - L| < \varepsilon.
+\]
+\end{definition}
+
+\begin{theorem}
+If $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} g(x) = M$, then
+\[
+\lim_{x \to a} (f(x) + g(x)) = L + M.
+\]
+\end{theorem}
+
+\begin{proof}
+Let $\varepsilon > 0$. Since $\lim_{x \to a} f(x) = L$, there exists $\delta_1 > 0$
+such that
+\[
+0 < |x - a| < \delta_1 \implies |f(x) - L| < \frac{\varepsilon}{2}.
+\]
+Similarly, since $\lim_{x \to a} g(x) = M$, there exists $\delta_2 > 0$
+such that
+\[
+0 < |x - a| < \delta_2 \implies |g(x) - M| < \frac{\varepsilon}{2}.
+\]
+Let $\delta = \min\{\delta_1, \delta_2\}$. Then if
+$0 < |x - a| < \delta$, we have
+\[
+|f(x) + g(x) - (L + M)|
+\le |f(x) - L| + |g(x) - M|
+< \frac{\varepsilon}{2} + \frac{\varepsilon}{2}
+= \varepsilon.
+\]
+Thus,
+\[
+\lim_{x \to a} (f(x) + g(x)) = L + M.
+\]
+\end{proof}
+
+\begin{example}
+Compute $\lim_{x \to 2} (3x^2 - 4x + 1)$.
+
+\textbf{Solution.}
+Since polynomials are continuous functions,
+\[
+\lim_{x \to 2} (3x^2 - 4x + 1)
+= 3(2)^2 - 4(2) + 1
+= 12 - 8 + 1
+= 5.
+\]
+\end{example}
+
+\section*{Exercises}
+
+\begin{enumerate}
+    \item Prove that $\lim_{x \to a} c = c$ for any constant $c$.
+    \item Show that if $\lim_{x \to a} f(x) = L$, then
+    $\lim_{x \to a} |f(x)| = |L|$.
+    \item Determine whether the limit
+    \[
+    \lim_{x \to 0} \frac{\sin x}{x}
+    \]
+    exists.
+\end{enumerate}
+
+\item %1
+    \begin{enumerate}
+        \item 
+    \end{enumerate}
+
+\end{document}
