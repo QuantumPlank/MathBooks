@@ -1,0 +1,10 @@
+\contentsline {chapter}{\numberline {1}Linear Systems}{2}{}%
+\contentsline {section}{\numberline {1.1}Solving Linear Systems}{2}{}%
+\contentsline {subsection}{\numberline {1.1.1}Gauss's Method}{2}{}%
+\contentsline {subsection}{\numberline {1.1.2}Exercises}{3}{}%
+\contentsline {section}{\numberline {1.2}Linear Geometry}{7}{}%
+\contentsline {section}{\numberline {1.3}Reduced Echelon Form}{7}{}%
+\contentsline {chapter}{\numberline {2}Vector Spaces}{8}{}%
+\contentsline {chapter}{\numberline {3}Maps Between Spaces}{9}{}%
+\contentsline {chapter}{\numberline {4}Determinants}{10}{}%
+\contentsline {chapter}{\numberline {5}Similarity}{11}{}%

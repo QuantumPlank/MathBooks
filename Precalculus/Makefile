@@ -1,9 +1,9 @@
-PYTHON = ../.venv/bin/python
+PYTHON = PYTHONPATH=$(shell pwd) ../.venv/bin/python
 
-PYFIGS := $(shell find figures -name "*.py")
+PYFIGS := $(shell find figures -name "*.py" ! -path "figures/common/*")
 PDFS := $(PYFIGS:.py=.pdf)
 
-%.pdf: %.py
+figures/%.pdf: figures/%.py
 	$(PYTHON) $<
 
 figures: $(PDFS)
