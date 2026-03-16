@@ -24,3 +24,8 @@
 \contentsline {subsection}{\numberline {2.3.1}Exercises}{22}{}%
 \contentsline {section}{\numberline {2.4}Inequalities with Absolute Value and Quadratic Functions}{24}{}%
 \contentsline {subsection}{\numberline {2.4.1}Exercises}{24}{}%
+\contentsline {chapter}{\numberline {3}Linear and Quadratic Functions}{26}{}%
+\contentsline {section}{\numberline {3.1}Graphs of Polynomials}{26}{}%
+\contentsline {section}{\numberline {3.2}The Factor Theorem and the Remainder Theorem}{26}{}%
+\contentsline {section}{\numberline {3.3}Real Zeros of Polynomials}{26}{}%
+\contentsline {section}{\numberline {3.4}Complex Zeros and the Fundamental Theorem of Algebra}{26}{}%
