@@ -1,0 +1,43 @@
+\section{Introduction to Rational Functions}
+
+\begin{definition}[Rational function]
+    A \textbf{rational function} is a function which is the ratio of polynomial functions. Said differently, $r$ is a rational function if it is of thje form
+    \[r(x) = \frac{p(x)}{q(x)}\]
+    where $p$ and $q$ are polynomial functions.
+\end{definition}
+
+\begin{definition}[Asymptote]
+    Asymptotes are lines that a curve approaches initely close as the function heads towards a point.
+    \begin{itemize}
+        \item The line $x=c$ is called a \textbf{vertical asymptote} of the graph of a function $y=f(x)$ if as $x\to c^-$ or as $x\to c^+$, either $f(x) \to \infty$ or $f(x) \to -\infty$
+        \item The line $y=c$ is called a \textbf{horizontal asymptote} of the graph of a function $y=f(x)$ if as $x\to -\infty$ or as $x\to \infty $, $f(x) \to c$
+    \end{itemize}
+\end{definition}
+
+\begin{theorem}[Location of Vertical Asymptotes and Holes]
+    Suppose $r$ is a rational function which can be written as $r(x) = \frac{p(x)}{q(x)}$ where $p$ and $q$ have no common zeros. Let $c$ be a real number which is not in the domain of $r$.
+    \begin{itemize}
+        \item If $q(c) \neq 0$, then the graph of $y=r(x)$ has a hole at $(q, \frac{p(c)}{q(c)})$.
+        \item If $q(c) = 0$, then the line $x = c$ is a vertical asymptote of the graph of $y = r(x)$
+    \end{itemize}
+\end{theorem}
+
+\begin{theorem}[Location of Horizontal Asymptotes]
+    Suppose $r$ is a rational function and $r(x) = \frac{p(x)}{q(x)}$, where $p$ and $q$ are polynomial functions with leading coefficients $a$ and $b$, respectively.
+    \begin{itemize}
+        \item If the degree of $p(x)$ is the same degree of $q(x)$, then $y=\frac{a}{b}$ is the horizontal asymptote of the graph of $y=r(x)$.
+        \item If the degree of $p(x)$ is less than the degree of $q(x)$, then  $y=0$ is the horizontal asymptote of the graph of $y=r(x)$
+        \item If the degree of $p(x)$ is greater than the degree of $q(x)$, then the graph of $y=r(x)$ has no horizontal asymptotes.
+    \end{itemize}
+\end{theorem}
+
+\begin{definition}[Slant asymptote]
+    The line $y=mx+b$ where $m\neq 0$ is called a \textbf{slant asymptote} of the graph of a function $y=f(x)$ if as $x\to -\infty$ or as $x\to \infty$, $f(x) \to mx + b$
+\end{definition}
+
+\begin{theorem}[Determination of Slant Asymptotes]
+    Suppose $r$ is a rational function and $r(x) = \frac{p(x)}{q(x)}$, where the degree of $p$ is exactly one more than the degree of $q$. Then the graph of $y=r(x)$ has the slant asymptote $y=L(x)$ where $L(x)$ is the quotient obtained by dividing $p(x)$ by $q(x)$.
+\end{theorem}
+
+\subsection{Exercises}
+\includepdf[pages=-]{Exercises/04/01.pdf}

@@ -1,0 +1,55 @@
+\section{Inverse Functions}
+
+\begin{definition}[Inverse functions]
+    Suppose $f$ and $g$ are two functions such that
+    \begin{enumerate}
+        \item $(g \circ f)(x) = x$ for all $x$ in the domain of $f$ \textbf{and}
+        \item $(f \circ g)(x) = x$ for all $x$ in the domain of $g$
+    \end{enumerate}
+    then $f$ and $g$ are \textbf{inverses} of each other and the functions $f$ and $g$ are said to be \textbf{invertible}.
+\end{definition}
+
+\begin{theorem}[Properties of Inverse Functions]
+    Suppose $f$ and $g$ are inverse functions.
+    \begin{itemize}
+        \item The range of $f$ is the domain of $g$ and the domain of $f$ is the range of $g$
+        \item $f(a)= b$ if and only if $g(b) = a$
+        \item $(a,b)$ is on the graph of $f$ if and only $(b,a)$ is on the graph of $g$
+    \end{itemize}
+\end{theorem}
+
+\begin{theorem}[Uniqueness of Inverse Functions and Their Graphs]
+    Suppose $f$ is an invertible function.
+    \begin{itemize}
+        \item There is exactly one inverse function for $f$, denoted $f^-1$
+        \item The graph of $y = f^-1(x)$ is the reflection of the graph $y=f(x)$ across the line $y=x$
+    \end{itemize}
+\end{theorem}
+
+\begin{definition}[One-to-One Functions]
+    A function $f$ is said to be \textbf{one-to-one} if $f$ matches different inputs to different outputs. Equivalently, $f$ is one-to-one if and only if whenever $f(c) = f(d)$, then $c=d$
+\end{definition}
+
+\begin{theorem}[The Horizontal Line Test]
+    A function $f$ is one-to-one if and only if no horizontal line intersects the graph of $f$ more than once.
+\end{theorem}
+
+\begin{theorem}[Equivalent Conditions for Invertibility]
+    Suppose $f$ is a function. The following statements are equivalent.
+    \begin{itemize}
+        \item $f$ is invertible.
+        \item $f$ is one-to-one
+        \item The graph of $f$ passes the Horizontal Line Test
+    \end{itemize}
+\end{theorem}
+
+\begin{procedure}[Steps for finding the Inverse of a One-to-one Function]
+    \begin{enumerate}
+        \item Write $y=f(x)$
+        \item Interchange $x$ and $y$
+        \item Solve $x=f(y)$ for $y$ to obtain $y=f^-1(x)$
+    \end{enumerate}
+\end{procedure}
+
+\subsection{Exercises}
+\includepdf[pages=-]{Exercises/05/02.pdf}

@@ -1,1 +1,61 @@
 \section{Graphs of Polynomials}
+
+\begin{definition}[Polynomial Function]
+    A \textbf{polynomial function} is a function of the form
+    \[f(x) = a_n x^n + a_{n-1}x^{n-1} + \cdot + a_2x^2 + a_1x + a_0\]
+    where $a_0, a_1, \cdot, a_n$ are real numbers and $n \geq 1$ is a natural number. The domain of a polynomial function is $(-\infty, \infty)$.
+\end{definition}
+
+\begin{definition}[Properties of polynomial functions]
+    Suppose $f$ is a polynomial function.
+    \begin{itemize}
+        \item Given $f(x) = a_n x^n + a_{n-1}x^{n-1} + \cdot + a_2x^2 + a_1x + a_0$ with $a_n \neq 0$, we say
+              \begin{itemize}[label=-]
+                  \item The natural number $n$ is called the \textbf{degree} of the polynomial $f$.
+                  \item The term $a_n x^n$ is called the \textbf{leading term} of the polynomial $f$.
+                  \item The real number $a_n$ is called the \textbf{leading coefficient} of the polynomial $f$.
+                  \item The reaul number $a_0$ is called the \textbf{constant term} of the polynomial $f$.
+              \end{itemize}
+        \item If $f(x) = a_0$, and $a_0 \neq 0$, we say $f$ has degree 0.
+        \item If $f(x) = 0$, we say $f$ has no degree.
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[End Behavior of Functions $f(x)=ax^n$, n is even]
+    Suppose $f(x) = ax^n$, where $a \neq 0$ is a real number and $n$ is an even natural number. The end behavior of th graph $y=f(x)$ matches one of the following:
+    \begin{itemize}
+        \item for $a>0$, as $x \to -\infty$, $f(x)\to \infty$ and as $x \to \infty$, $f(x) \to \infty$
+        \item for $a<0$, as $x \to -\infty$, $f(x)\to -\infty$ and as $x \to \infty$, $f(x) \to -\infty$
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[End Behavior of Functions $f(x)=ax^n$, n is odd]
+    Suppose $f(x) = ax^n$, where $a \neq 0$ is a real number and $ \geq 3n$ is an odd natural number. The end behavior of th graph $y=f(x)$ matches one of the following:
+    \begin{itemize}
+        \item for $a>0$, as $x \to -\infty$, $f(x)\to -\infty$ and as $x \to \infty$, $f(x) \to \infty$
+        \item for $a<0$, as $x \to -\infty$, $f(x)\to \infty$ and as $x \to \infty$, $f(x) \to -\infty$
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[The Intermediate Value Theorem]
+    Suppose $f$ is a continuous function on an interval containing $x=a$ and $x=b$ with $a<b$. If $f(a)$ and $f(b)$ have different signs, then $f$ has at least one zero between $x=a$ and $x=b$; that is, for at least one real number $c$ such that $a<c<b$, we have $f(c) = 0$.
+\end{definition}
+
+\begin{definition}[End Behavior for Polynomial Functions]
+    The end behavior of a polynomial $f(x)=a_nx^n + a_{n-1}x^{n-1}+\cdot+a_1x+a_0$ with $a_n \neq 0$ matches the end behavior of $y=a_nx^n$.
+\end{definition}
+
+\begin{definition}[Multiplicity]
+    Suppose $f$ is a polynomial functiuon and $m$ is a natural number. If $(x-c)^m$ is a factor of $f(x)$ but $(x-c)^{m+1}$ is not, then we say $x=c$ is a zero of \textbf{multiplicity} $m$.
+\end{definition}
+
+\begin{definition}[Role of multiplicity]
+    Suppose $f$ is a polynomial function and $x=c$ is a zero of multiplicity $m$.
+    \begin{itemize}
+        \item If $m$ is even, the graph of $y=f(x)$ touches and rebounds from the $x$-axis at $(c,0)$.
+        \item If $m$ is odd, the graph of $y=f(x)$ crosses through the $x$-axis at $(c,0)$.
+    \end{itemize}
+\end{definition}
+
+\subsection{Problems}
+\includepdf[pages=-]{Exercises/03/01.pdf}

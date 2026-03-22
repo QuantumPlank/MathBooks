@@ -1,1 +1,43 @@
 \section{Complex Zeros and the Fundamental Theorem of Algebra}
+
+\begin{definition}[Imaginary Unit]
+    The imaginary unit $i$ satisfies the two following properties
+    \begin{itemize}
+        \item $i^2 = -1$
+        \item If $c$ is a real number with $c \geq 0$ then $\sqrt{-c} = i \sqrt{c}$
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[Complex number]
+    A complex number is a number of the form $a+bi$, where $a$ and $b$ are real numbers and $i$ is the imaginary unit.
+\end{definition}
+
+\begin{theorem}[Properties of the Complex Conjugate]
+    Let $z$ and $w$ be complex numbers.
+    \begin{itemize}
+        \item $\overline{\overline{z}} = z$
+        \item $\overline{z} + \overline{w} = \overline{z + w}$
+        \item $\overline{z}\overline{w} = \overline{zw}$
+        \item $(\overline{z})^n = \overline{z^n}$, for any natural number $n$
+        \item $z$ is a real number if and only if $\overline{z} = z$
+    \end{itemize}
+\end{theorem}
+
+\begin{theorem}[The Fundamental Theorem of Algebra]
+    Suppose $f$ is a polynomial function with complex number coefficients of degree $n \geq 1$, then $f$ has at least one complex zero.
+\end{theorem}
+
+\begin{theorem}[Complex Factorization Theorem]
+    Suppose $f$ is a polynomial function with complex number coefficients. If the degree of $f$ is $n$ and $n \geq 1$, then $f$ has exactly $n$ complex zeros, counting multiplicity. If $z_1, z_2, \cdot, z_n$ are the distinct zeros of $f$, with multiplicities $m_1, m_2, \cdot, m_k$, respectively, then $f(x) = a(x-z_1)^{m_1}(x-z_2)^{m_2}(x-z_3)^{m_3}\cdot (x - z_k)^{m_k}$
+\end{theorem}
+
+\begin{theorem}[Conjugate Pairs Theorem]
+    If $f$ is a polynomial function with real number coefficients and $z$ is a zero of $f$, then so is $\overline{z}$
+\end{theorem}
+
+\begin{theorem}[Real Factorization Theorem]
+    Suppose $f$ is a polynomial function with real number coefficients. Then $f(x)$ can be factored into a product of linear factors corresponding to the real zeros of $f$ and irreducible quadratic factors which give the nonreal zeros of $f$.
+\end{theorem}
+
+\subsection{Exercises}
+\includepdf[pages=-]{Exercises/03/04.pdf}

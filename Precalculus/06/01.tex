@@ -1,0 +1,61 @@
+\section{Introduction to Exponentail and Logarithmic Functions}
+
+\begin{definition}[Exponential Function]
+    A function of the form $f(x) = b^x$ where $b$ is a fixed real number, $b>0$, $b \neq 1$ is called a \textbf{base $b$ exponential function}.
+\end{definition}
+
+\begin{theorem}[Properties of Exponential Functions]
+    Suppose $f(x)=b^x$.
+    \begin{itemize}
+        \item The domain of $f$ is $(-\infty, \infty)$ and the range of $f$ is $(0, \infty)$.
+        \item $(0, 1)$ is on the graph of $f$ and $y=0$ is a horizontal asymptote to the graph of $f$.
+        \item $f$ is one-to-one, continuous and smooth.
+        \item If $b > 1$:
+              \begin{itemize}[label=-]
+                  \item $f$ is always increasing
+                  \item As $x \to -\infty$, $f(x) \to 0^+$
+                  \item As $x \to \infty$, $f(x) \to \infty$
+              \end{itemize}
+        \item If $0 < b < 1$:
+              \begin{itemize}[label=-]
+                  \item $f$ is always decreasing
+                  \item As $x \to -\infty$, $f(x) \to \infty$
+                  \item As $x \to \infty$, $f(x) \to 0^+$
+              \end{itemize}
+    \end{itemize}
+\end{theorem}
+
+\begin{definition}[Logarithmic Function]
+    The inverse of the exponential function $f(x)=b^x$ is called the \textbf{base $b$ logarithmic function}, and is denoted by $f^{-1}(x)=\log_{b}(x)$. We read $\log_{b}(x)$ as log base $b$ of $x$.
+\end{definition}
+
+\begin{definition}
+    The \textbf{common logarithm} of a real number $x$ is $\log_{10}(x)$ and is usually written $\log(x)$. The \textbf{natural logarithm} of a real number $x$ is $\log_{e}(x)$ and is usually written $ln(x)$.
+\end{definition}
+
+\begin{theorem}[Properties of Logarithmic Functions]
+    Suppose $f(x)=\log_{b}(x)$
+    \begin{itemize}
+        \item The domain of $f$ is $(0, \infty)$ and the range of $f$ is $(-\infty, \infty)$.
+        \item $(1, 0)$ is on the graph of $f$ and $y=0$ is a vertical asymptote to the graph of $f$.
+        \item $f$ is one-to-one, continuous and smooth.
+        \item $b^a = c$ if and only if $\log_{b}(c)=a$. That is, $\log_{b}(c)$ is the exponent you put on $b$ to obtain $c$.
+        \item $\log_{b}(b^x)=x$ for all $x$ and $b^{\log_{b}(x)}=x$ for all $x>0$
+        \item If $b > 1$:
+              \begin{itemize}[label=-]
+                  \item $f$ is always increasing
+                  \item As $x \to 0^+$, $f(x) \to -\infty$
+                  \item As $x \to \infty$, $f(x) \to \infty$
+              \end{itemize}
+        \item If $0 < b < 1$:
+              \begin{itemize}[label=-]
+                  \item $f$ is always decreasing
+                  \item As $x \to 0^+$, $f(x) \to \infty$
+                  \item As $x \to \infty$, $f(x) \to -\infty$
+              \end{itemize}
+    \end{itemize}
+\end{theorem}
+
+
+\subsection{Exercises}
+\includepdf[pages=-]{Exercises/06/01.pdf}

@@ -1,1 +1,29 @@
 \section{Real Zeros of Polynomials}
+
+\begin{theorem}[Cauchy's Bound]
+    Suppose $f(x) = a_n x^n + a_{n-1}x^{n-1} + \cdot + a_2x^2 + a_1x + a_0$ is a polynomial of degree $n$ with $n \geq 1$. Let $M$ be the largest of the numbers: $\frac{|a_0|}{a_n}, \frac{|a_1|}{a_n}, \cdot, \frac{|a_{n-1}|}{a_n}$. Then all the real zeros of $f$ lie in the interval $[-(M+1), M+1]$
+\end{theorem}
+
+\begin{theorem}[Rational Zeros Theorem]
+    Suppose $f(x)= a_n x^n + a_{n-1}x^{n-1} + \cdot + a_2x^2 + a_1x + a_0$ is a polynomial of degree $n$ with $n \geq 1$, and $a_0, a_1, \cdot, a_n$ are integers. If $r$ is a rational zero of $f$, then $r$ is of the form $\pm \frac{p}{q}$, where $p$ is a factor of the constant term $a_0$, and $q$ is a factor of the leading coefficient $a_n$.
+\end{theorem}
+
+\begin{theorem}[Descartes' Rule of Signs]
+    Suppose $f(x)$ is the formula for a polynomial function written with descending powers of $x$.
+    \begin{itemize}
+        \item If $P$ denotes the number of variations of sign in the formula for $f(x)$, then the number of positive real zeros (counting multiplicity) is one of the numbers $\{P, P-2, P-4, \cdot\}$
+        \item If $N$ denotes the number of variations of sign in the formula for $f(-x)$, then the number of negative real zeros (counting multiplicity) is one of the numbers $\{N, N-2, N-4, \cdot\}$
+    \end{itemize}
+\end{theorem}
+
+\begin{theorem}[Upper and Lower Bounds]
+    Suppose $f$ is a polynomial of degree $n\geq 1$.
+    \begin{itemize}
+        \item If $c>0$ is synthetically divided into $f$ and all of the numbers in the final line of the division tableaut have the same signs, then $c$ is an upper bound for the real zeros of $f$. That is, there are no real zeros greater than $c$.
+        \item If $c<0$ is synthetically divided into $f$ and all of the numbers in the final line of the division tableaut have the same signs, then $c$ is an upper bound for the real zeros of $f$. That is, there are no real zeros less than $c$.
+        \item If $c=0$ occurs in the final line of the division tableau in either of the above cases, it can be treated as positive or negative as needed.
+    \end{itemize}
+\end{theorem}
+
+\subsection{Exercises}
+\includepdf[pages=-]{Exercises/03/03.pdf}

@@ -1,115 +1,33 @@
 \documentclass{report}
-\usepackage{graphicx} % Required for inserting images
+
 \usepackage{multicol}
-\usepackage{amsmath}
-\usepackage{amsfonts}
 \usepackage{mathrsfs}  
-\usepackage{amssymb}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{pdfpages}
 
-\setcounter{chapter}{-1}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
 
-\title{How To Prove It: A Structured Approach}
+\title{Notes and Selected Exercises for: How To Prove It: A Structured  - Velleman}
 \author{Christian Quintanar}
-\date{May 2025}
+\date{Mar 2026}
 
 \begin{document}
+
+
 
 \maketitle
 
 \tableofcontents
 
-\chapter{Introduction}
-    \section{Introduction}
-        \subsection{Recapitulation}
-        \input{00_Introduction/R01_Introduction.tex}
-        \subsection{Problems}
-        \input{00_Introduction/P01_Introduction.tex}
-\chapter{Sentential Logic}
-    \section{Deductive Reasoning and Logical Connectives}
-        \subsection{Recapitulation}
-        \input{01_Sentential_Logic/R01_Deductive_Reasoning_and_Logical_Connectives.tex}
-        \subsection{Problems}
-        \input{01_Sentential_Logic/P01_Deductive_Reasoning_and_Logical_Connectives.tex}
-    \section{Truth Tables}
-        \subsection{Recapitulation}
-        \input{01_Sentential_Logic/R02_Truth_Tables.tex}
-        \subsection{Problems}
-        \input{01_Sentential_Logic/P02_Truth_Tables.tex}
-    \section{Variables and Sets}
-        \subsection{Recapitulation}
-        \input{01_Sentential_Logic/R03_Variables_and_Sets.tex}
-        \subsection{Problems}
-        \input{01_Sentential_Logic/P03_Variables_and_Sets.tex}
-    \section{Operations on Sets}
-        \subsection{Recapitulation}
-        \input{01_Sentential_Logic/R04_Operations_on_Sets.tex}
-        \subsection{Problems}
-        \input{01_Sentential_Logic/P04_Operations_on_Sets.tex}
-    \section{The Conditional and Biconditional Connectives}
-        \subsection{Recapitulation}
-        \input{01_Sentential_Logic/R05_The_Conditional_and_Biconditional_Connectives.tex}
-        \subsection{Problems}
-        \input{01_Sentential_Logic/P05_The_Conditional_and_Biconditional_Connectives.tex}
-
-\chapter{Quantificational Logic}
-    \section{Quantifiers}
-        \subsection{Recapitulation}
-        \input{02_Quantificational_Logic/R01_Quantifiers.tex}
-        \subsection{Problems}
-        \input{02_Quantificational_Logic/P01_Quantifiers.tex}
-    \section{Equivalentces Involving Quantifiers}
-        \subsection{Recapitulation}
-        \input{02_Quantificational_Logic/R02_Equivalences_Involving_Quantifiers.tex}
-        \subsection{Problems}
-        \input{02_Quantificational_Logic/P02_Equivalences_Involving_Quantifiers.tex}
-    \section{More Operations on Sets}
-        \subsection{Recapitulation}
-        \input{02_Quantificational_Logic/R03_More_Operations_on_Sets.tex}
-        \subsection{Problems}
-        \input{02_Quantificational_Logic/P03_More_Operations_on_Sets.tex}
-
-\chapter{Proofs}
-    \section{Proof Strategies}
-        \subsection{Recapitulation}
-        \input{03_Proofs/R01_Proof_Strategies.tex}
-        \subsection{Problems}
-        \input{03_Proofs/P01_Proof_Strategies.tex}
-    \section{Proofs Involving Negations and Conditionals}
-        \subsection{Recapitulation}
-        \input{03_Proofs/R02_Proofs_Involving_Negations_and_Conditionals.tex}
-        \subsection{Problems}
-        \input{03_Proofs/P02_Proofs_Involving_Negations_and_Conditionals.tex}
-    \section{Proofs Involving Quantifiers}
-        \subsection{Recapitulation}
-        \input{03_Proofs/R03_Proofs_Involving_Quantifiers.tex}
-        \subsection{Problems}
-        \input{03_Proofs/P03_Proofs_Involving_Quantifiers.tex}
-    \section{Proofs Involving Conjunctions and Biconditionals}
-        \subsection{Recapitulation}
-        \input{03_Proofs/R04_Proofs_Involving_Conjunctions_and_Biconditionals.tex}
-        \subsection{Problems}
-        \input{03_Proofs/P04_Proofs_Involving_Conjunctions_and_Biconditionals.tex}
-    \section{Proofs Involving Disjunctions}
-        \subsection{Recapitulation}
-        \input{03_Proofs/R05_Proofs_Involving_Disjunctions.tex}
-        \subsection{Problems}
-        \input{03_Proofs/P05_Proofs_Involving_Disjunctions.tex}
-    \section{Existence and Uniqueness Proofs}
-        \subsection{Recapitulation}
-        \subsection{Problems}
-    \section{More Examples of Proofs}
-        \subsection{Recapitulation}
-        \subsection{Problems}
-
-\chapter{Relations}
-
-\chapter{Functions}
-
-\chapter{Mathematical Induction}
-
-\chapter{Number Theory}
-
-\chapter{Infinite Sets}
-
+\include{01/main}
 
 \end{document}
